@@ -1,14 +1,20 @@
 {
-    "header_top_left": "Dubrovsky: past, present, future",
-    "header_top_right": "Stories that unite us",
-    "page_title": "Historical Project",
-    "menu_book": "book",
-    "menu_gallery": "gallery",
-    "main_heading": "Dubrovsky: Past, Present, Future",
-    "copyright_text": "© 2025 DU BROVSKY FAMILY",
-
-    "main_book_1_title": "La cuisinie",
+    "page_title": "Dubrovsky",
+    "name-logo": "<img src='images/logo-en.svg'>",
+    "header_top_left": "live as though all your ancestors were living again through you",
+    "header_top_right": "",
+    "menu_home": "Home",
+    "menu_book": "Family books",
+    "menu_gallery": "Family pics",
+    "main_book_title": "Family books",
+    "main_book_1_title": "Cuisine Adventures",
     "main_book_1_text": "Никакой буржуазии с прислугой и собственным поваром, как у Ниро Вульфа и Арчи Гудвина, к сожалению, давно не осталось: похоже, на кухне тебе все придется делать самому.",
-    "main_book_2_title": "Уроки Рисования",
-    "main_book_2_text": "Никакой буржуазии с прислугой и собственным поваром, как у Ниро Вульфа и Арчи Гудвина, к сожалению, давно не осталось: похоже, на кухне тебе все придется делать самому."
+    "main_book_2_title": "Paint Parties",
+    "main_book_2_text": "Никакой буржуазии с прислугой и собственным поваром, как у Ниро Вульфа и Арчи Гудвина, к сожалению, давно не осталось: похоже, на кухне тебе все придется делать самому.",
+    "main_gallery_title": "Family pics",
+    "main_book_1_link-pdf": "Download 'Cuisine Adventures' (PDF)",
+    "main_book_1_link-doc": "Download 'Cuisine Adventures' (Word)",
+    "main_book_2_link-pdf": "Download 'Paint Parties' (PDF)",
+    "main_book_2_link-doc": "Download 'Paint Parties' (Word)",
+    "copyright_text": "© 2025 Dubrovsky"
 }

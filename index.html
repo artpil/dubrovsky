@@ -1,63 +1,94 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html lang="en">
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Поиск почтовых отправлений</title>
-    <meta name="description" content="Сервис слежения за почтовыми отправления">
+    <title data-i18n-key="header_top_right">Dubrovsky</title>
+    <meta name="description" content="live as though all your ancestors were living again through you">
     <link rel="shortcut icon" href="static/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="static/css/owl.carousel.css">
+    <link rel="stylesheet" href="static/css/owl.theme.default.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+    <script type="text/javascript" src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
   <link href="css/main.css" rel="stylesheet"></head>
 </html>
 <body>
-  <header class="header">
-    <div class="header__top">
-      <div class="container">
-        <div class="header__top-content"><span data-i18n-key="header_top_left">Dubrovsky: past, present, future</span><span data-i18n-key="header_top_right">Stories that unite us</span></div>
+  <div class="bg">
+    <header class="header">
+      <div class="header__top">
+        <div class="container">
+          <div class="header__top-content"><span data-i18n-key="header_top_left">Dubrovsky: past, present, future</span><span data-i18n-key="header_top_right"></span></div>
+        </div>
       </div>
-    </div>
-    <div class="header__bottom">
-      <div class="container">
-        <div class="header__content">
-          <div class="header__left"></div>
-          <div class="header__center"><a href="#"><img src="images/logo.svg"></a></div>
-          <div class="header__right">
-            <div id="language-switcher">
-              <div class="lang-btn active" data-lang="en">EN</div>
-              <div class="lang-btn" data-lang="ru">РУ</div>
-              <div class="lang-indicator"></div>
+      <div class="header__bottom">
+        <div class="container">
+          <div class="header__content">
+            <div class="header__left"></div>
+            <div class="header__center">
+              <!--a(href='index.html' data-i18n-key="name-logo").logo Dubrovsky--><a class="logo" href="index.html"><img src="images/logo-en.svg"><img src="images/logo-ru.svg"></a>
+            </div>
+            <div class="header__right">
+              <div id="language-switcher">
+                <div class="lang-btn active" data-lang="en">EN</div>
+                <div class="lang-btn" data-lang="ru">РУ</div>
+                <div class="lang-indicator"></div>
+              </div>
             </div>
           </div>
         </div>
       </div>
-    </div>
-    <div class="header__nav">
-      <div class="container">
-        <div class="header__nav-border">
-          <div class="header__nav-border"></div>
-        </div>
-        <div class="header__nav-content"><a href="#"><span data-i18n-key="menu_book">book</span></a>
-          <div></div><a href="gallery.html"><span data-i18n-key="menu_gallery">gallery</span></a>
-        </div>
-      </div>
-    </div>
-  </header>
-  <main style="padding-top: 150px;">
-    <div class="container">
-      <div class="form"><a href="main.html">main.html</a><br><a href="category.html">category.html</a><br><a href="product.html">product.html</a><br><a href="checkout.html">checkout.html</a><br><a href="account.html">account.html</a><br><a href="contact.html">contact.html</a><br><a href="customer.html">customer.html</a><br><a href="terms.html">terms.html</a><br><br><br><br><br></div>
-    </div>
-  </main>
-  <footer class="footer footer__page">
-    <div class="footer__top">
-      <div class="container">
-        <div class="footer__content"><a class="footer__logo" href="#"><img src="images/logo.svg"></a>
-          <div class="footer__nav1"><a href="#">Subscribe to newsletter</a><a href="#">Store locator</a><a href="#">FAQs</a><a href="#">Returns and exchanges</a><a href="#">Payments</a><a href="#">Contact us</a><a href="#">Legal area</a><a href="#">Cookie policy</a><a href="#">Privacy policy</a><a href="#">Careers</a><a href="#">Sitemap</a><a href="#">Sustainability</a></div>
-          <div class="footer__nav2"><a href="#">INSTAGRAM</a><a href="#">FACEBOOK</a><a href="#">TIKTOK</a><a href="#">YOUTUBE</a></div>
-          <div class="footer__copy">Copyright © 2024 MUI. All Rights Reserved.</div>
+      <div class="header__nav">
+        <div class="container">
+          <div class="header__nav-border">
+            <div class="header__nav-border"></div>
+          </div>
+          <div class="header__nav-content"><a href="index.html"><span data-i18n-key="menu_home">Home</span></a>
+            <div></div><a href="books.html"><span data-i18n-key="menu_book">Family books</span></a>
+            <div></div><a href="gallery.html"><span data-i18n-key="menu_gallery">Family pics</span></a>
+          </div>
         </div>
       </div>
-    </div>
-  </footer>
+    </header>
+    <main class="main">
+      <div class="main-book">
+        <div class="container"><a class="main-book__content" href="books.html">
+            <div class="title" data-i18n-key="main_book_title">Family books</div>
+            <div class="main-book__list">
+              <div class="main-book__item">
+                <div class="main-book__img img"><img class="img__no" src="images/cuisine.png"><img class="img__color" src="images/cuisine-c.png">
+                </div>
+                <div class="main-book__text"><b data-i18n-key="main_book_1_title">Cuisine Adventures</b></div>
+              </div>
+              <div class="main-book__separator"></div>
+              <div class="main-book__item">
+                <div class="main-book__img img"><img class="img__no" src="images/painting.png"><img class="img__color" src="images/painting-c.png">
+                </div>
+                <div class="main-book__text"><b data-i18n-key="main_book_2_title">Paint Parties</b></div>
+              </div>
+            </div></a></div>
+      </div>
+      <div class="main-gallery">
+        <div class="container"><a class="main-gallery__content" href="gallery.html">
+            <div class="title" data-i18n-key="main_gallery_title">Family pics</div>
+            <div class="main-gallery__list">
+              <div class="main-gallery__item img-filter"><img src="images/gallery1.jpg">
+              </div>
+              <div class="main-gallery__item img-filter"><img src="images/gallery2.jpg">
+              </div>
+              <div class="main-gallery__item img-filter"><img src="images/gallery3.jpg">
+              </div>
+            </div></a></div>
+      </div>
+      <footer class="footer">
+        <div class="container">
+          <div class="footer__content">
+            <div class="footer__copy" data-i18n-key="copyright_text">© 2025 Dubrovsky</div>
+          </div>
+        </div>
+      </footer>
+    </main>
+  </div>
   <script type="text/javascript" src="static/js/jquery.min.js"></script>
   <script type="text/javascript" src="static/js/owl.carousel.js"></script>
   <script type="text/javascript" src="static/js/core.js"></script>
-<script src="js/main.7bc78b558a7781d69ba7.js"></script></body>
+<script src="js/main.a26a658e9ef2eb6c70c4.js"></script></body>

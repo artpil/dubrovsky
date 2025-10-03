@@ -2,14 +2,27 @@ $(document).ready(function () {
   const langSwitcher = document.getElementById('language-switcher');
   const defaultLang = 'en';
 
+  const basePath = window.location.pathname.includes("/dubrovsky/")
+    ? "/dubrovsky/"
+    : "/";
+
   // ----------------------------------------------------------------------
   // Обновляем все ссылки на странице (чтобы сохранялся ?lang=ru)
   function updateAllLinksLanguage(lang) {
     document.querySelectorAll('a[href]').forEach(link => {
       const href = link.getAttribute('href');
 
-      if (href && !href.startsWith('http') && !href.startsWith('#') && !href.startsWith('mailto') && !href.startsWith('javascript')) {
-        const url = new URL(href, window.location.origin);
+      if (
+        href &&
+        !href.startsWith('http') &&
+        !href.startsWith('#') &&
+        !href.startsWith('mailto') &&
+        !href.startsWith('javascript')
+      ) {
+        // нормализуем путь (чтобы не было двойных //)
+        const cleanHref = href.replace(/^\/+/, '');
+        const url = new URL(basePath + cleanHref, window.location.origin);
+
         url.searchParams.set('lang', lang);
         link.setAttribute('href', url.pathname + url.search);
 

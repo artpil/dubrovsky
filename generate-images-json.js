@@ -45,3 +45,5 @@ fs.mkdirSync(path.dirname(outputFile), { recursive: true });
 fs.writeFileSync(outputFile, JSON.stringify(result, null, 2), 'utf8');
 
 console.log(`✅ Wrote ${outputFile} — folders: ${Object.keys(result).length}`);
+
+

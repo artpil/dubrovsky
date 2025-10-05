@@ -1,32 +1,38 @@
 // ./generate-images-json.js
-const fs = require("fs");
-const path = require("path");
+const fs = require('fs');
+const path = require('path');
 
-const baseDir = "./images/gallery/";
-const output = "./images/images.json";
+const galleryDir = path.resolve(__dirname, './images/gallery');
+const outputFile = path.resolve(__dirname, './images/images.json');
 
-function generateGalleryJSON(dirPath) {
-  const folders = fs.readdirSync(dirPath, { withFileTypes: true });
-  const result = {};
-
-  for (const folder of folders) {
-    if (folder.isDirectory()) {
-      const folderPath = path.join(dirPath, folder.name);
-      const files = fs
-        .readdirSync(folderPath)
-        .filter(
-          (file) =>
-            /\.(png|jpe?g|gif|webp|svg)$/i.test(file) && file !== "images.json"
-        );
-      result[folder.name] = files;
-    }
-  }
-
-  return result;
+function isImage(name) {
+  return /\.(png|jpe?g|gif|webp|svg)$/i.test(name);
 }
 
-const data = generateGalleryJSON(baseDir);
+if (!fs.existsSync(galleryDir)) {
+  console.error(`Gallery directory not found: ${galleryDir}`);
+  process.exit(1);
+}
 
-fs.writeFileSync(output, JSON.stringify(data, null, 2), "utf8");
-console.log(`✅ images.json created with ${Object.keys(data).length} folders`);
+const entries = fs.readdirSync(galleryDir, { withFileTypes: true });
+const result = {};
 
+for (const entry of entries) {
+  if (!entry.isDirectory()) continue;
+
+  const folderName = entry.name;
+  const folderPath = path.join(galleryDir, folderName);
+
+  const files = fs.readdirSync(folderPath, { withFileTypes: true })
+    .filter(f => f.isFile() && isImage(f.name))
+    .map(f => f.name.trim())
+    .sort((a, b) => a.localeCompare(b, undefined, { sensitivity: 'base' }));
+
+  result[folderName] = files;
+}
+
+// ensure output dir exists
+fs.mkdirSync(path.dirname(outputFile), { recursive: true });
+fs.writeFileSync(outputFile, JSON.stringify(result, null, 2), 'utf8');
+
+console.log(`✅ Wrote ${outputFile} — folders: ${Object.keys(result).length}`);

@@ -29,3 +29,4 @@ const data = generateGalleryJSON(baseDir);
 
 fs.writeFileSync(output, JSON.stringify(data, null, 2), "utf8");
 console.log(`✅ images.json created with ${Object.keys(data).length} folders`);
+

@@ -24,8 +24,10 @@
           <div class="container">
             <div class="header__content">
               <div class="header__left"></div>
-              <div class="header__center">
-                <!--a(href='index.html' data-i18n-key="name-logo").logo Dubrovsky--><a class="logo" href="index.html"><img src="images/logo-en.svg"><img src="images/logo-ru.svg"></a>
+              <div class="header__center"><a class="logo" href="index.html" data-i18n-key="name-logo"><img src="images/logo-en.svg"></a>
+                <!--a(href='index.html').logo-->
+                <!--	+img('logo-en.svg')-->
+                <!--	+img('logo-ru.svg')-->
               </div>
               <div class="header__right">
                 <div id="language-switcher">
@@ -50,31 +52,29 @@
         </div>
       </header>
       <main class="main">
-        <div class="main-gallery">
-          <div class="container">
-            <div class="main-gallery__content">
-              <div class="title" data-i18n-key="menu_gallery">gallery</div>
-              <div class="main-gallery__list">
-                <div class="main-gallery__item img-filter"><img src="images/gallery1.jpg">
-                </div>
-                <div class="main-gallery__item img-filter"><img src="images/gallery2.jpg">
-                </div>
-                <div class="main-gallery__item img-filter"><img src="images/gallery3.jpg">
+        <div class="main__content">
+          <div class="gallery">
+            <div class="title" data-i18n-key="main_gallery_title">Family pics</div>
+            <div class="gallery__content">
+              <div class="gallery__list">
+                <div class="gallery__item">
+                  <div class="img-filter"><img src="images/gallery1.jpg">
+                  </div>
                 </div>
               </div>
             </div>
           </div>
         </div>
-      </main>
-      <footer class="footer">
-        <div class="container">
-          <div class="footer__content">
-            <div class="footer__copy" data-i18n-key="copyright_text">© 2025 Dubrovsky</div>
+        <footer class="footer">
+          <div class="container">
+            <div class="footer__content">
+              <div class="footer__copy" data-i18n-key="copyright_text">© 2025 Dubrovsky</div>
+            </div>
           </div>
-        </div>
-      </footer>
+        </footer>
+      </main>
     </div>
-  <script src="js/main.a26a658e9ef2eb6c70c4.js"></script></body>
+  <script src="js/main.d3cc98237d9bef0ea137.js"></script></body>
   <script type="text/javascript" src="static/js/jquery.min.js"></script>
   <script type="text/javascript" src="static/js/owl.carousel.js"></script>
   <script type="text/javascript" src="static/js/core.js"></script>

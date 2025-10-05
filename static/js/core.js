@@ -19,17 +19,32 @@ $(document).ready(function () {
         !href.startsWith('mailto') &&
         !href.startsWith('javascript')
       ) {
-        // нормализуем путь (чтобы не было двойных //)
+        // нормализуем путь (убираем лишние /)
         const cleanHref = href.replace(/^\/+/, '');
         const url = new URL(basePath + cleanHref, window.location.origin);
 
-        url.searchParams.set('lang', lang);
-        link.setAttribute('href', url.pathname + url.search);
+        // сохраняем hash (если был)
+        if (link.hash) {
+          url.hash = link.hash;
+        }
 
-        console.log(`🔗 Обновил ссылку: ${href} -> ${url.pathname + url.search}`);
+        // сохраняем query из оригинальной ссылки (если был)
+        const originalUrl = new URL(href, window.location.origin);
+        originalUrl.searchParams.forEach((value, key) => {
+          url.searchParams.set(key, value);
+        });
+
+        // добавляем lang
+        url.searchParams.set('lang', lang);
+
+        // применяем обновлённый href
+        link.setAttribute('href', url.pathname + url.search + url.hash);
+
+        console.log(`🔗 Обновил ссылку: ${href} -> ${url.pathname + url.search + url.hash}`);
       }
     });
   }
+
 
   // ----------------------------------------------------------------------
   // Обновляем URL браузера (pushState)
@@ -60,9 +75,18 @@ $(document).ready(function () {
       document.querySelectorAll('[data-i18n-key]').forEach((element) => {
         const key = element.getAttribute('data-i18n-key');
         if (translations[key]) {
-          element.innerText = translations[key];
+          if (Array.isArray(translations[key])) {
+            // если массив → соединяем и вставляем как HTML
+            element.innerHTML = translations[key].join("");
+          } else {
+            // если обычный текст → вставляем как текст
+            element.innerText = translations[key];
+          }
+
           if (key === 'page_title') {
-            document.title = translations[key];
+            document.title = Array.isArray(translations[key])
+              ? translations[key].join("")
+              : translations[key];
           }
         }
       });
@@ -159,6 +183,14 @@ $(document).ready(function () {
     $('body').removeClass('_modal-open');
   });
   // modal-sort
+
+
+  $(".book__item .more__link").on("click", function (e) {
+    e.preventDefault();
+    $(this).closest(".book__item").find(".book__more").slideToggle(500);
+    $(this).toggleClass("open");
+  });
+
 
 
 });

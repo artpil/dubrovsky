@@ -24,8 +24,10 @@
         <div class="container">
           <div class="header__content">
             <div class="header__left"></div>
-            <div class="header__center">
-              <!--a(href='index.html' data-i18n-key="name-logo").logo Dubrovsky--><a class="logo" href="index.html"><img src="images/logo-en.svg"><img src="images/logo-ru.svg"></a>
+            <div class="header__center"><a class="logo" href="index.html" data-i18n-key="name-logo"><img src="images/logo-en.svg"></a>
+              <!--a(href='index.html').logo-->
+              <!--	+img('logo-en.svg')-->
+              <!--	+img('logo-ru.svg')-->
             </div>
             <div class="header__right">
               <div id="language-switcher">
@@ -50,34 +52,39 @@
       </div>
     </header>
     <main class="main">
-      <div class="main-book">
-        <div class="container"><a class="main-book__content" href="books.html">
-            <div class="title" data-i18n-key="main_book_title">Family books</div>
-            <div class="main-book__list">
-              <div class="main-book__item">
-                <div class="main-book__img img"><img class="img__no" src="images/cuisine.png"><img class="img__color" src="images/cuisine-c.png">
+      <div class="main__content">
+        <div class="main-book">
+          <div class="container">
+            <div class="main-book__content">
+              <div class="title" data-i18n-key="main_book_title">Family books</div>
+              <div class="main-book__list"><a class="main-book__item" href="books.html?#book1">
+                  <div class="main-book__img img"><img class="img__no" src="images/cuisine.png"><img class="img__color" src="images/cuisine-color.png">
+                  </div>
+                  <div class="main-book__text"><b data-i18n-key="main_book_1_title">Cuisine Adventures</b>
+                    <!--p(data-i18n-key="main_book_1_text") Никакой буржуазии с прислугой <b>и собственным поваром</b>, как у Ниро Вульфа...-->
+                  </div></a>
+                <div class="main-book__separator"></div><a class="main-book__item" href="books.html?#book2">
+                  <div class="main-book__img img"><img class="img__no" src="images/painting.png"><img class="img__color" src="images/painting-color.png">
+                  </div>
+                  <div class="main-book__text"><b data-i18n-key="main_book_2_title">Paint Parties</b>
+                    <!--p(data-i18n-key="main_book_1_text")-->
+                  </div></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="main-gallery">
+          <div class="container"><a class="main-gallery__content" href="gallery.html">
+              <div class="title" data-i18n-key="main_gallery_title">Family pics</div>
+              <div class="main-gallery__list">
+                <div class="main-gallery__item img-filter"><img src="images/gallery1.jpg">
                 </div>
-                <div class="main-book__text"><b data-i18n-key="main_book_1_title">Cuisine Adventures</b></div>
-              </div>
-              <div class="main-book__separator"></div>
-              <div class="main-book__item">
-                <div class="main-book__img img"><img class="img__no" src="images/painting.png"><img class="img__color" src="images/painting-c.png">
+                <div class="main-gallery__item img-filter"><img src="images/gallery2.jpg">
                 </div>
-                <div class="main-book__text"><b data-i18n-key="main_book_2_title">Paint Parties</b></div>
-              </div>
-            </div></a></div>
-      </div>
-      <div class="main-gallery">
-        <div class="container"><a class="main-gallery__content" href="gallery.html">
-            <div class="title" data-i18n-key="main_gallery_title">Family pics</div>
-            <div class="main-gallery__list">
-              <div class="main-gallery__item img-filter"><img src="images/gallery1.jpg">
-              </div>
-              <div class="main-gallery__item img-filter"><img src="images/gallery2.jpg">
-              </div>
-              <div class="main-gallery__item img-filter"><img src="images/gallery3.jpg">
-              </div>
-            </div></a></div>
+                <div class="main-gallery__item img-filter"><img src="images/gallery3.jpg">
+                </div>
+              </div></a></div>
+        </div>
       </div>
       <footer class="footer">
         <div class="container">
@@ -91,4 +98,4 @@
   <script type="text/javascript" src="static/js/jquery.min.js"></script>
   <script type="text/javascript" src="static/js/owl.carousel.js"></script>
   <script type="text/javascript" src="static/js/core.js"></script>
-<script src="js/main.a26a658e9ef2eb6c70c4.js"></script></body>
+<script src="js/main.d3cc98237d9bef0ea137.js"></script></body>

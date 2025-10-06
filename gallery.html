@@ -6,10 +6,9 @@
     <title data-i18n-key="page_title">the twist of fate</title>
     <meta name="description" content="the twist of fate">
     <link rel="shortcut icon" href="static/favicon.ico" type="image/x-icon">
-    <link rel="stylesheet" href="static/css/owl.carousel.css">
-    <link rel="stylesheet" href="static/css/owl.theme.default.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
-    <script type="text/javascript" src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.css">
     <link href="css/main.css" rel="stylesheet">
   <link href="css/main.css" rel="stylesheet"></head>
   <body>
@@ -41,12 +40,12 @@
         </div>
         <div class="header__nav">
           <div class="container">
-            <div class="header__nav-border">
-              <div class="header__nav-border"></div>
-            </div>
             <div class="header__nav-content"><a href="index.html"><span data-i18n-key="menu_home">Home</span></a>
               <div></div><a href="books.html"><span data-i18n-key="menu_book">Family books</span></a>
               <div></div><a href="gallery.html"><span data-i18n-key="menu_gallery">Family pics</span></a>
+            </div>
+            <div class="header__nav-border">
+              <div class="header__nav-border"></div>
             </div>
           </div>
         </div>
@@ -56,12 +55,7 @@
           <div class="gallery">
             <div class="title" data-i18n-key="main_gallery_title">Family pics</div>
             <div class="gallery__content">
-              <div class="gallery__list">
-                <div class="gallery__item">
-                  <div class="img-filter"><img src="images/gallery1.jpg">
-                  </div>
-                </div>
-              </div>
+              <div class="gallery__list" id="gallery-container"></div>
             </div>
           </div>
         </div>
@@ -74,8 +68,66 @@
         </footer>
       </main>
     </div>
-  <script src="js/main.d3cc98237d9bef0ea137.js"></script></body>
+  <script src="js/main.d95dab99b0455b1079f3.js"></script></body>
   <script type="text/javascript" src="static/js/jquery.min.js"></script>
   <script type="text/javascript" src="static/js/owl.carousel.js"></script>
   <script type="text/javascript" src="static/js/core.js"></script>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.umd.js"></script>
+  <script>
+    $(function() {
+          $.getJSON("images/images.json", function(data) {
+            const container = $("#gallery-container");
+    
+            $.each(data, function(folderName, files) {
+              // создаём блок для каждой группы
+              const section = $(`
+                <div class="gallery-section">
+                  <div class="book__title" data-i18n-key="${folderName}">${folderName}</div>
+                  <div class="owl-carousel owl-theme"></div>
+                </div>
+              `);
+    
+              const carousel = section.find(".owl-carousel");
+    
+              // добавляем картинки
+              files.forEach(file => {
+                // путь: images/gallery/<folderName>/<filename>
+                const imgPath = "images/gallery/" + folderName + "/" + file;
+                carousel.append(`
+                  <div class="item">
+                    <a href="${imgPath}" data-fancybox="${folderName}">
+                      <img src="${imgPath}" alt="${file}">
+                    </a>
+                  </div>
+                `);
+              });
+    
+              // инициализация карусели
+              carousel.owlCarousel({
+                items: 3,
+                margin: 10,
+                nav: true,
+                dots: false,
+                loop: true,
+                responsive: {
+                  0: { items: 1 },
+                  600: { items: 2 },
+                  1000: { items: 3 }
+                },
+                navText: [,]
+              });
+    
+              container.append(section);
+            });
+            Fancybox.bind("[data-fancybox]", {
+              Thumbs: false,
+              Toolbar: {
+                display: ["zoom", "close"],
+              }
+            });
+          });
+        });
+  </script>
 </html>

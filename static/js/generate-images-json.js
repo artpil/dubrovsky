@@ -2,8 +2,8 @@
 const fs = require('fs');
 const path = require('path');
 
-const galleryDir = path.resolve(__dirname, './images/gallery');
-const outputFile = path.resolve(__dirname, './images/images.json');
+const galleryDir = path.resolve(__dirname, '../../images/gallery');
+const outputFile = path.resolve(__dirname, '../../images/images.json');
 
 function isImage(name) {
   return /\.(png|jpe?g|gif|webp|svg)$/i.test(name);

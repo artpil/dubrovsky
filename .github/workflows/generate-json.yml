@@ -23,7 +23,7 @@ jobs:
           node-version: '18'
 
       - name: Generate images.json
-        run: node static/js/generate-images-json.js
+        run: node ./static/js/generate-images-json.js
 
       - name: Commit and push changes
         run: |

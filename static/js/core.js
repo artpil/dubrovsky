@@ -19,9 +19,18 @@ $(document).ready(function () {
         !href.startsWith('mailto') &&
         !href.startsWith('javascript')
       ) {
+        // если ссылка уже содержит /dubrovsky/, не добавляем повторно
+        const hasDubrovsky = href.includes('/dubrovsky/');
+
         // нормализуем путь (убираем лишние /)
         const cleanHref = href.replace(/^\/+/, '');
-        const url = new URL(basePath + cleanHref, window.location.origin);
+
+        // формируем базу — добавляем /dubrovsky/ только если его нет
+        const fullPath = hasDubrovsky
+          ? cleanHref
+          : basePath + cleanHref;
+
+        const url = new URL(fullPath, window.location.origin);
 
         // сохраняем hash (если был)
         if (link.hash) {

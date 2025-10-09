@@ -8,16 +8,20 @@
     <link rel="shortcut icon" href="static/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="static/css/owl.carousel.css">
     <link rel="stylesheet" href="static/css/owl.theme.default.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
-    <script type="text/javascript" src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
-    <link href="css/main.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.css">
   <link href="css/main.css" rel="stylesheet"></head>
   <body>
     <div class="bg">
       <header class="header">
         <div class="header__top">
           <div class="container">
-            <div class="header__top-content"><span data-i18n-key="header_top_left">Dubrovsky: past, present, future</span><span data-i18n-key="header_top_right"></span></div>
+            <div class="header__top-content"><span data-i18n-key="header_top_left">Dubrovsky: past, present, future</span>
+              <div class="language-switcher">
+                <div class="lang-btn active" data-lang="en">EN</div>
+                <div class="lang-btn" data-lang="ru">РУ</div>
+                <div class="lang-indicator"></div>
+              </div>
+            </div>
           </div>
         </div>
         <div class="header__bottom">
@@ -30,7 +34,7 @@
                 <!--	+img('logo-ru.svg')-->
               </div>
               <div class="header__right">
-                <div id="language-switcher">
+                <div class="language-switcher">
                   <div class="lang-btn active" data-lang="en">EN</div>
                   <div class="lang-btn" data-lang="ru">РУ</div>
                   <div class="lang-indicator"></div>
@@ -59,7 +63,7 @@
               <div class="book__item" id="book1">
                 <div class="book__img img"><img class="img__no" src="images/cuisine.png"><img class="img__color" src="images/cuisine-color.png">
                 </div>
-                <div class="book__text"><b class="book__title" data-i18n-key="book_2_title">Cuisine Adventures</b>
+                <div class="book__text"><b class="book__title" data-i18n-key="book_1_title">Cuisine Adventures</b>
                   <div class="book__link"><a class="book__download" href="books.html"><span data-i18n-key="book_link-pdf">Download (PDF)</span><img src="images/i-download.png"></a><a class="book__download" href="images/cuisine-adventures-ru.docx" target="_blank"><span data-i18n-key="book_link-doc">Download (Word)</span><img src="images/i-download.png"></a></div>
                   <div class="book__paragraph" data-i18n-key="book_1_text-less"><p>Никакой буржуазии с прислугой и собственным поваром, как у Ниро Вульфа и Арчи Гудвина, к сожалению, давно не осталось: похоже, на кухне тебе все придется делать самому. Это осознаешь постепенно — когда уже получил докторскую степень и собственную лабораторию, где на тебя работает группа из полдюжины человек. Или, наконец, раскрутилось дело, которое позволило вырваться из крысиных гонок за деньги и карьеру в огромном биотехе, где прошли двадцать лет твоей жизни. А может, разумные инвестиции стали приносить постоянный доход, построены хорошие дома и растут дети. Но иногда, в полнолуние, к изголовью подкрадывается странный сон: как будто ты стоишь поздним вечером на высокой набережной, а мимо тихо проходит корабль. Ты, видимо, не успел на него. Люди — вот они, рукой подать, сидят вровень с тобой за столиками, на низкой, освещенной палубе, ты слышишь позвякивание столовых приборов, шаги официантов и разговоры, но не можешь разобрать, о чем речь, и мечешься на подушке, пытаясь собрать предложения из едва слышных, ускользающих слов.</p></div>
                   <div class="book__more" data-i18n-key="book_1_text-more"><p>Кажется, первый раз я увидел уходящий корабль в день рождения одной маленькой девочки, в Нормандии. Я остановился на ночь на крохотной улиточной ферме, где-то в полях, по пути из города Rouen к воздушному замку Mont-Saint-Michel, растущему прямо из моря до облаков. В моем распоряжении был второй этаж гостевого дома, ледяное вино с этикеткой, написанной карандашом от руки, и плетеная корзинка со свежим хлебом. Из открытого окна виднелся стол, накрытый деревенской полосатой скатертью, и чугунная газовая плита. Соседи с виноградника неподалеку принесли домашний сыр и белое вино в высоких бутылках, а дородная хозяйка готовила на улице эскарго. Густой ореховый запах, составленный из горячего сливочного масла, трав, чеснока и еще каких-то незнакомых тонов, пробирался ко мне в комнату из темноты сада вместе с приглушенной болтовней взрослых и смехом детей, собравшихся на праздник. Я опустился на подоконник, зубами вытащил пробку из початой бутылки rosé и остановился только когда на дне осталось на пару глотков. Что за вино было тогда на столе у них — и неужели можно испечь дома такой хлеб? И поди знай, как вообще готовят виноградных улиток.</p>
@@ -100,8 +104,9 @@
         </footer>
       </main>
     </div>
-  <script src="js/main.b5e2aea99afc556283fd.js"></script></body>
+  <script src="js/main.01fc74dfd169bca8c33e.js"></script></body>
   <script type="text/javascript" src="static/js/jquery.min.js"></script>
   <script type="text/javascript" src="static/js/owl.carousel.js"></script>
   <script type="text/javascript" src="static/js/core.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.umd.js"></script>
 </html>

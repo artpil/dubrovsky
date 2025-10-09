@@ -1,5 +1,6 @@
 $(document).ready(function () {
-  const langSwitcher = document.getElementById('language-switcher');
+  // const langSwitcher = document.getElementById('language-switcher');
+  const langSwitcher = document.querySelectorAll('.language-switcher');
   const defaultLang = 'en';
 
   const basePath = window.location.pathname.includes("/dubrovsky/")
@@ -49,7 +50,7 @@ $(document).ready(function () {
         // применяем обновлённый href
         link.setAttribute('href', url.pathname + url.search + url.hash);
 
-        console.log(`🔗 Обновил ссылку: ${href} -> ${url.pathname + url.search + url.hash}`);
+        // console.log(`🔗 Обновил ссылку: ${href} -> ${url.pathname + url.search + url.hash}`);
       }
     });
   }
@@ -67,11 +68,11 @@ $(document).ready(function () {
   // Устанавливаем язык
   async function setLanguage(lang) {
     try {
-      console.log("🔄 Устанавливаю язык:", lang);
+      // console.log("🔄 Устанавливаю язык:", lang);
 
       const response = await fetch(`static/js/locales/${lang}.json`);
       if (!response.ok) {
-        console.error(`❌ Не удалось загрузить ${lang}.json. Статус: ${response.status}`);
+        // console.error(`❌ Не удалось загрузить ${lang}.json. Статус: ${response.status}`);
         return;
       }
 
@@ -107,7 +108,7 @@ $(document).ready(function () {
 
       // сохраняем
       localStorage.setItem('lang', lang);
-      console.log("💾 localStorage.lang =", localStorage.getItem('lang'));
+      // console.log("💾 localStorage.lang =", localStorage.getItem('lang'));
 
       // обновляем URL и ссылки
       updateUrlLang(lang);
@@ -128,15 +129,17 @@ $(document).ready(function () {
 
   // ----------------------------------------------------------------------
   // Обработчик кликов
-  if (langSwitcher) {
-    langSwitcher.addEventListener('click', (event) => {
-      if (event.target.classList.contains('lang-btn')) {
-        const newLang = event.target.getAttribute('data-lang');
-        if (newLang) {
-          console.log("🖱 Клик по языку:", newLang);
-          setLanguage(newLang);
+  if (langSwitcher.length) {
+    langSwitcher.forEach((switcher) => {
+      switcher.addEventListener('click', (event) => {
+        if (event.target.classList.contains('lang-btn')) {
+          const newLang = event.target.getAttribute('data-lang');
+          if (newLang) {
+            console.log("🖱 Клик по языку:", newLang);
+            setLanguage(newLang);
+          }
         }
-      }
+      });
     });
   }
 

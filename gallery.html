@@ -6,17 +6,22 @@
     <title data-i18n-key="page_title">the twist of fate</title>
     <meta name="description" content="the twist of fate">
     <link rel="shortcut icon" href="static/favicon.ico" type="image/x-icon">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
+    <link rel="stylesheet" href="static/css/owl.carousel.css">
+    <link rel="stylesheet" href="static/css/owl.theme.default.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.css">
-    <link href="css/main.css" rel="stylesheet">
   <link href="css/main.css" rel="stylesheet"></head>
   <body>
     <div class="bg">
       <header class="header">
         <div class="header__top">
           <div class="container">
-            <div class="header__top-content"><span data-i18n-key="header_top_left">Dubrovsky: past, present, future</span><span data-i18n-key="header_top_right"></span></div>
+            <div class="header__top-content"><span data-i18n-key="header_top_left">Dubrovsky: past, present, future</span>
+              <div class="language-switcher">
+                <div class="lang-btn active" data-lang="en">EN</div>
+                <div class="lang-btn" data-lang="ru">РУ</div>
+                <div class="lang-indicator"></div>
+              </div>
+            </div>
           </div>
         </div>
         <div class="header__bottom">
@@ -29,7 +34,7 @@
                 <!--	+img('logo-ru.svg')-->
               </div>
               <div class="header__right">
-                <div id="language-switcher">
+                <div class="language-switcher">
                   <div class="lang-btn active" data-lang="en">EN</div>
                   <div class="lang-btn" data-lang="ru">РУ</div>
                   <div class="lang-indicator"></div>
@@ -68,12 +73,10 @@
         </footer>
       </main>
     </div>
-  <script src="js/main.b5e2aea99afc556283fd.js"></script></body>
+  <script src="js/main.01fc74dfd169bca8c33e.js"></script></body>
   <script type="text/javascript" src="static/js/jquery.min.js"></script>
   <script type="text/javascript" src="static/js/owl.carousel.js"></script>
   <script type="text/javascript" src="static/js/core.js"></script>
-  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.umd.js"></script>
   <script>
     $(function() {
@@ -83,7 +86,7 @@
             $.each(data, function(folderName, files) {
               // создаём блок для каждой группы
               const section = $(`
-                <div class="gallery-section">
+                <div class="gallery-section" id="${folderName}">
                   <div class="book__title" data-i18n-key="${folderName}">${folderName}</div>
                   <div class="owl-carousel owl-theme"></div>
                 </div>
@@ -127,6 +130,8 @@
                 display: ["zoom", "close"],
               }
             });
+    
+    
           });
         });
   </script>

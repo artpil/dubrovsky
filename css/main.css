@@ -1377,7 +1377,8 @@ html[lang=ru] .logo img[src*="logo-en.svg"] {
   align-items: center;
   -webkit-box-pack: center;
   -ms-flex-pack: center;
-  justify-content: center
+  justify-content: center;
+  overflow: hidden;
 }
 
 .gallery-section .owl-carousel .owl-item .item a, .gallery-section .owl-carousel .owl-item .item div {
@@ -1413,7 +1414,6 @@ html[lang=ru] .logo img[src*="logo-en.svg"] {
   top: 50%;
   border-radius: 8px;
   padding: 0 !important;
-  margin: -35px 0 0;
   -webkit-filter: brightness(100%) contrast(100%);
   filter: brightness(100%) contrast(100%);
   -webkit-box-shadow: none;

@@ -25,7 +25,7 @@ jobs:
       - name: Prepare site directory
         run: |
           mkdir -p site
-          rsync -a --exclude='.git' --exclude='.github' --exclude='site' ./ site/
+          tar cf - --exclude='./.git' --exclude='./.github' --exclude='./site' . | tar xf - -C site
 
       - name: Upload dist artifact
         uses: actions/upload-pages-artifact@v3

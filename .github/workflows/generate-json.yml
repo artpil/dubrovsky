@@ -1,40 +1,76 @@
-name: Generate images.json
+name: Generate Gallery JSON
 
 on:
   push:
-    branches: [main, master]
+    branches:
+      - main
+      - master
     paths:
-      - "images/gallery/**"
-      - "static/js/generate-images-json.js"
-      - ".github/workflows/generate-json.yml"
-  workflow_dispatch:
-
-permissions:
-  contents: write
+      - 'images/gallery/**'
+  workflow_dispatch: # Позволяет запускать вручную
 
 jobs:
   generate-json:
     runs-on: ubuntu-latest
+
     steps:
-      - name: Checkout code
+      - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Set up Node.js
+      - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: "24"
+          node-version: '18'
 
       - name: Generate images.json
-        run: node ./static/js/generate-images-json.js
+        run: |
+          node -e "
+            const fs = require('fs');
+            const path = require('path');
+          
+            const galleryPath = './images/gallery';
+            const outputPath = './images.json';
+          
+            if (!fs.existsSync(galleryPath)) {
+              console.log('Gallery directory not found, creating empty JSON');
+              fs.writeFileSync(outputPath, JSON.stringify({}, null, 2));
+              process.exit(0);
+            }
+          
+            const folders = fs.readdirSync(galleryPath).filter(item => {
+              const itemPath = path.join(galleryPath, item);
+              return fs.statSync(itemPath).isDirectory();
+            });
+          
+            const gallery = {};
+          
+            folders.forEach(folder => {
+              const folderPath = path.join(galleryPath, folder);
+              const files = fs.readdirSync(folderPath).filter(file => {
+                // Фильтруем только изображения
+                const ext = path.extname(file).toLowerCase();
+                return ['.jpg', '.jpeg', '.png', '.gif', '.webp', '.bmp', '.svg'].includes(ext);
+              });
+          
+              // Сортируем файлы
+              files.sort();
+          
+              // Добавляем путь к каждому файлу
+              gallery[folder] = files.map(file => `${folder}/${file}`);
+            });
+          
+            fs.writeFileSync(outputPath, JSON.stringify(gallery, null, 2));
+            console.log('Generated images.json successfully!');
+            console.log('Found folders:', Object.keys(gallery).join(', '));
+            console.log('Total images:', Object.values(gallery).reduce((sum, files) => sum + files.length, 0));
+          "
 
       - name: Commit and push changes
         run: |
-          if git diff --quiet -- images/images.json; then
-            echo "images.json is up to date"
-            exit 0
-          fi
-          git config user.name "github-actions[bot]"
-          git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add images/images.json
-          git commit -m "chore: auto-update images.json [skip ci]"
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git add images.json
+          git diff --staged --quiet || git commit -m "chore: update gallery images.json [skip ci]"
           git push
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

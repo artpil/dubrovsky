@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d55b18d9-d7cc-4c09-9406-77a690da2976" name="Changes" comment="" />
+    <list default="true" id="d55b18d9-d7cc-4c09-9406-77a690da2976" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.github/workflows/generate-json.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/generate-json.yml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -24,7 +26,7 @@
             <option name="modeId" value="Agent" />
             <option name="modelType" value="builtin_family" />
             <option name="modelValue" value="auto" />
-            <option name="status" value="WaitingForResponse" />
+            <option name="status" value="Processing" />
             <option name="targetType" value="LOCAL" />
           </session>
         </option>
@@ -111,7 +113,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1788774327269</updated>
-      <workItem from="1788774328370" duration="3986000" />
+      <workItem from="1788774328370" duration="4061000" />
     </task>
     <servers />
   </component>

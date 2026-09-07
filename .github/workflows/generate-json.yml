@@ -5,7 +5,7 @@ on:
     branches: [main, master]
     paths:
       - "images/gallery/**"
-      - "scripts/generate-images-json.js"
+      - "static/js/generate-images-json.js"
       - ".github/workflows/generate-json.yml"
   workflow_dispatch:
 
@@ -13,11 +13,10 @@ permissions:
   contents: write
 
 jobs:
-  generate:
+  generate-json:
     runs-on: ubuntu-latest
-
     steps:
-      - name: Checkout repository
+      - name: Checkout code
         uses: actions/checkout@v4
 
       - name: Set up Node.js
@@ -26,9 +25,9 @@ jobs:
           node-version: "24"
 
       - name: Generate images.json
-        run: node ./scripts/generate-images-json.js
+        run: node ./static/js/generate-images-json.js
 
-      - name: Commit and push if changed
+      - name: Commit and push changes
         run: |
           if git diff --quiet -- images/images.json; then
             echo "images.json is up to date"

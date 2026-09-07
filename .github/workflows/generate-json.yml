@@ -23,6 +23,8 @@ jobs:
         uses: actions/checkout@v4
 
       - name: Prepare site directory
+        # Copy the static site files (excluding .git/.github) into ./site using tar,
+        # which is guaranteed to be available on all runner images.
         run: |
           mkdir -p site
           tar cf - --exclude='./.git' --exclude='./.github' --exclude='./site' . | tar xf - -C site

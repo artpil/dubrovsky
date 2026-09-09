@@ -342,7 +342,7 @@ body, html {
 html {
   height: auto;
   font-size: 1px;
-  background: url(../images/fon-html.jpg) 50%;
+  background: url(../images/fon-html.jpg) top center fixed;
   scroll-behavior: smooth;
   min-height: 100%
 }
@@ -370,7 +370,7 @@ body {
 }
 
 .bg {
-  background: url(../images/fon-bg.jpg) 50%;
+  background: url(../images/fon-bg.jpg) top center;
   max-width: 1200px;
   width: 100%;
   margin: 0 auto;
@@ -1130,10 +1130,10 @@ html[lang=ru] .logo img[src*="logo-en.svg"] {
   position: relative
 }
 
-.book__more {
-  display: none;
-  margin-bottom: 40px
-}
+/*.book__more {*/
+/*  display: none;*/
+/*  margin-bottom: 40px*/
+/*}*/
 
 .book__separator {
   width: 100px;
@@ -1365,7 +1365,8 @@ html[lang=ru] .logo img[src*="logo-en.svg"] {
 
 .gallery-section .owl-carousel .owl-item .item {
   border: 6px double var(--black);
-  background: url(../images/fon-html.jpg)
+  background: url(../images/fon-html.jpg);
+  box-shadow: inset 0px 0px 200px rgb(133 95 27 / 50%);
 }
 
 .gallery-section .owl-carousel .owl-item .item, .gallery-section .owl-carousel .owl-item .item a, .gallery-section .owl-carousel .owl-item .item div {

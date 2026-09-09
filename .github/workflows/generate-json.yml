@@ -23,47 +23,7 @@ jobs:
           node-version: '18'
 
       - name: Generate images.json
-        run: |
-          node -e "
-            const fs = require('fs');
-            const path = require('path');
-          
-            const galleryPath = './images/gallery';
-            const outputPath = './images.json';
-          
-            if (!fs.existsSync(galleryPath)) {
-              console.log('Gallery directory not found, creating empty JSON');
-              fs.writeFileSync(outputPath, JSON.stringify({}, null, 2));
-              process.exit(0);
-            }
-          
-            const folders = fs.readdirSync(galleryPath).filter(item => {
-              const itemPath = path.join(galleryPath, item);
-              return fs.statSync(itemPath).isDirectory();
-            });
-          
-            const gallery = {};
-          
-            folders.forEach(folder => {
-              const folderPath = path.join(galleryPath, folder);
-              const files = fs.readdirSync(folderPath).filter(file => {
-                // Фильтруем только изображения
-                const ext = path.extname(file).toLowerCase();
-                return ['.jpg', '.jpeg', '.png', '.gif', '.webp', '.bmp', '.svg'].includes(ext);
-              });
-          
-              // Сортируем файлы
-              files.sort();
-          
-              // Добавляем путь к каждому файлу
-              gallery[folder] = files.map(file => `${folder}/${file}`);
-            });
-          
-            fs.writeFileSync(outputPath, JSON.stringify(gallery, null, 2));
-            console.log('Generated images.json successfully!');
-            console.log('Found folders:', Object.keys(gallery).join(', '));
-            console.log('Total images:', Object.values(gallery).reduce((sum, files) => sum + files.length, 0));
-          "
+        run: node .github/scripts/generate-gallery-json.js
 
       - name: Commit and push changes
         run: |

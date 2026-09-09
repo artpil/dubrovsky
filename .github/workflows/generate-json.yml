@@ -20,13 +20,8 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Setup Node.js
-        uses: actions/setup-node@v4
-        with:
-          node-version: '18'
-
       - name: Generate images.json
-        run: node .github/scripts/generate-gallery-json.js
+        run: bash .github/scripts/generate-images-json.sh
 
       - name: Commit and push changes
         run: |

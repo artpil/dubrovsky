@@ -1,563 +1,2054 @@
 {
   "Athens": [
-    "300 at Thermopylae.JPG",
-    "Herod Odeon_1.JPG",
-    "Herod Odeon_2.jpg",
-    "Museum_1.JPG",
-    "Museum_2.JPG",
-    "Museum_3.JPG",
-    "Museum_4.JPG",
-    "Museum_5.JPG"
+    {
+      "name": "300 at Thermopylae.JPG",
+      "description": "“O stranger, tell the Spartans that here we lie, obedient to their commands.” The 300 Led by Leonidas, Thermopylae"
+    },
+    {
+      "name": "Herod Odeon_1.JPG",
+      "description": "Bust of an Unknown Man"
+    },
+    {
+      "name": "Herod Odeon_2.jpg",
+      "description": "Magnificent Odeon of Herodes"
+    },
+    {
+      "name": "Museum_1.JPG",
+      "description": "Bust of an Unknown Man"
+    },
+    {
+      "name": "Museum_2.JPG",
+      "description": "Four-Horse Chariot on a Greek Vase"
+    },
+    {
+      "name": "Museum_3.JPG",
+      "description": "Artemision Bronze — Zeus or Poseidon"
+    },
+    {
+      "name": "Museum_4.JPG",
+      "description": "Aphrodite of Milos"
+    },
+    {
+      "name": "Museum_5.JPG",
+      "description": "Jockey of Artemision"
+    }
   ],
   "Bayon": [
-    "Cambodia Bayon_1.JPG",
-    "Cambodia Bayon_2.JPG",
-    "Cambodia Bayon_3.JPG",
-    "Cambodia Bayon_4.JPG",
-    "Cambodia Bayon_5.JPG",
-    "Cambodia Bayon_7.JPG",
-    "Cambodia Bayon_8.JPG",
-    "Cambodia Bayon_9.jpg",
-    "Cambodia_2010.jpeg",
-    "Cambodia_Bayon_6.JPG"
+    {
+      "name": "Cambodia Bayon_1.JPG",
+      "description": "Faces of Jayavarman VII"
+    },
+    {
+      "name": "Cambodia Bayon_2.JPG",
+      "description": "Faces of Jayavarman VII"
+    },
+    {
+      "name": "Cambodia Bayon_3.JPG",
+      "description": "Faces of Jayavarman VII"
+    },
+    {
+      "name": "Cambodia Bayon_4.JPG",
+      "description": "Faces of Jayavarman VII"
+    },
+    {
+      "name": "Cambodia Bayon_5.JPG",
+      "description": "Inside the Bayon Temple, Cambodia"
+    },
+    {
+      "name": "Cambodia Bayon_7.JPG",
+      "description": "Faces of Jayavarman VII"
+    },
+    {
+      "name": "Cambodia Bayon_8.JPG",
+      "description": "Faces of Jayavarman VII"
+    },
+    {
+      "name": "Cambodia Bayon_9.jpg",
+      "description": "Faces of Jayavarman VII"
+    },
+    {
+      "name": "Cambodia_2010.jpeg",
+      "description": "Cambodia_2010"
+    },
+    {
+      "name": "Cambodia_Bayon_6.JPG",
+      "description": "Faces of Jayavarman VII"
+    }
   ],
   "Borobudur": [
-    "Borobudur_1.JPG",
-    "Borobudur_2.JPG",
-    "Borobudur_3.JPG",
-    "Borobudur_4 2013.JPG",
-    "Borobudur_5.JPG",
-    "Borobudur_6.JPG",
-    "Borobudur_7.JPG",
-    "Borobudur_8.JPG",
-    "Borobudur_9.JPG",
-    "Borobudur_10.JPG",
-    "Borobudur_11.JPG",
-    "Bunaken diving_1.jpg",
-    "Bunaken diving_2.jpg",
-    "Bunaken diving_3.jpg",
-    "Comodo dragon.JPG",
-    "Nikoi Island_1 2008.JPG",
-    "Nikoi island_2 2008.JPG"
+    {
+      "name": "Borobudur_1.JPG",
+      "description": "In Conversation with the Bodhisattvas"
+    },
+    {
+      "name": "Borobudur_2.JPG",
+      "description": "In Conversation with the Bodhisattvas"
+    },
+    {
+      "name": "Borobudur_3.JPG",
+      "description": "In Conversation with the Bodhisattvas"
+    },
+    {
+      "name": "Borobudur_4 2013.JPG",
+      "description": "After Sunrise, Borobudur, Indonesia"
+    },
+    {
+      "name": "Borobudur_5.JPG",
+      "description": "Sleeping Volcano in the Distance"
+    },
+    {
+      "name": "Borobudur_6.JPG",
+      "description": "Sleeping Volcano in the Distance"
+    },
+    {
+      "name": "Borobudur_7.JPG",
+      "description": "Sleeping Volcano in the Distance"
+    },
+    {
+      "name": "Borobudur_8.JPG",
+      "description": "Temple from Afar"
+    },
+    {
+      "name": "Borobudur_9.JPG",
+      "description": "Bodhisattvas of Borobudur"
+    },
+    {
+      "name": "Borobudur_10.JPG",
+      "description": "Bodhisattvas of Borobudur"
+    },
+    {
+      "name": "Borobudur_11.JPG",
+      "description": "On Borobudur Hill, Indonesia"
+    },
+    {
+      "name": "Bunaken diving_1.jpg",
+      "description": "Corals at the Edge of the Abyss, Bunaken"
+    },
+    {
+      "name": "Bunaken diving_2.jpg",
+      "description": "Corals at the Edge of the Abyss, Bunaken"
+    },
+    {
+      "name": "Bunaken diving_3.jpg",
+      "description": "Underwater at Bunaken Island - Sulawesi, Indonesia"
+    },
+    {
+      "name": "Comodo dragon.JPG",
+      "description": "The Weary Dragon on Komodo Island"
+    },
+    {
+      "name": "Nikoi Island_1 2008.JPG",
+      "description": "Waterside Bungalow, Nikoi"
+    },
+    {
+      "name": "Nikoi island_2 2008.JPG",
+      "description": "Granite Bones of Nikoi Island, Indonesia"
+    }
   ],
   "California": [
-    "AL&L new Lab.jpg",
-    "CA Apricot.jpg",
-    "CA Persimon.jpg",
-    "Golden Gate.jpg",
-    "Orchard_2.jpg",
-    "Orchard_3.JPG",
-    "Pacific_1.JPG",
-    "Pacific_2.JPG",
-    "Pacific.jpg",
-    "Pantalassa.jpg",
-    "San Francisco_1.jpg",
-    "San Francisco_2.JPG",
-    "San Francisco_3.JPG",
-    "San Francisco_4.JPG",
-    "Sunflowers.jpg",
-    "The Oak in the fog.jpg",
-    "Vinyard.JPG"
+    {
+      "name": "AL&L new Lab.jpg",
+      "description": "AL&L new Lab"
+    },
+    {
+      "name": "CA Apricot.jpg",
+      "description": "CA Apricot"
+    },
+    {
+      "name": "CA Persimon.jpg",
+      "description": "CA Persimon"
+    },
+    {
+      "name": "Golden Gate.jpg",
+      "description": "Golden Gate with Alcatraz Beyond"
+    },
+    {
+      "name": "Orchard_2.jpg",
+      "description": "Evening over the Flooded Walnut Orchard"
+    },
+    {
+      "name": "Orchard_3.JPG",
+      "description": "A Garden Bonfire"
+    },
+    {
+      "name": "Pacific_1.JPG",
+      "description": "Houses of San Francisco"
+    },
+    {
+      "name": "Pacific_2.JPG",
+      "description": "Evening over the Flooded Walnut Orchard"
+    },
+    {
+      "name": "Pacific.jpg",
+      "description": "Gumboot Chiton and Purple Sea Urchins, Baker Beach"
+    },
+    {
+      "name": "Pantalassa.jpg",
+      "description": "The Great Panthalassa"
+    },
+    {
+      "name": "San Francisco_1.jpg",
+      "description": "Houses of San Francisco"
+    },
+    {
+      "name": "San Francisco_2.JPG",
+      "description": "Golden Gate from the Air"
+    },
+    {
+      "name": "San Francisco_3.JPG",
+      "description": "A Garden Bonfire"
+    },
+    {
+      "name": "San Francisco_4.JPG",
+      "description": "Golden Gate — A Little Crooked, Still Great!"
+    },
+    {
+      "name": "Sunflowers.jpg",
+      "description": "Sunflowers"
+    },
+    {
+      "name": "The Oak in the fog.jpg",
+      "description": "The Oak in the fog"
+    },
+    {
+      "name": "Vinyard.JPG",
+      "description": "Vinyard"
+    }
   ],
   "China": [
-    "Cave river Li.jpg",
-    "River Li_1.jpg",
-    "River Li_2.jpg",
-    "River Li_3.jpg",
-    "River Li_4.jpg",
-    "River Li_5.jpg",
-    "River Li_6.jpg",
-    "Temple of Heaven.jpg",
-    "Terracotta army colors.jpg",
-    "Xian_1.jpg",
-    "Xian_2.jpg",
-    "Xian_3.jpg",
-    "Xian_4.jpg",
-    "Xian_5.jpg"
+    {
+      "name": "Cave river Li.jpg",
+      "description": "In the Cool Depths of a Karst Cave by the River"
+    },
+    {
+      "name": "River Li_1.jpg",
+      "description": "The Rice Terraces Far Below"
+    },
+    {
+      "name": "River Li_2.jpg",
+      "description": "Drifting Along the Li River on a Bamboo Raft"
+    },
+    {
+      "name": "River Li_3.jpg",
+      "description": "The Li River Threading Its Way Through the Karst Mountains of Southern China"
+    },
+    {
+      "name": "River Li_4.jpg",
+      "description": "The Li River Threading Its Way Through the Karst Mountains of Southern China"
+    },
+    {
+      "name": "River Li_5.jpg",
+      "description": "The Li River Threading Its Way Through the Karst Mountains of Southern China"
+    },
+    {
+      "name": "River Li_6.jpg",
+      "description": "The Li River Threading Its Way Through the Karst Mountains of Southern China"
+    },
+    {
+      "name": "Temple of Heaven.jpg",
+      "description": "The Majestic Temple of Heaven, Beijing"
+    },
+    {
+      "name": "Terracotta army colors.jpg",
+      "description": "The Fading Colors of Qin Shi Huang’s Army"
+    },
+    {
+      "name": "Xian_1.jpg",
+      "description": "Inside the Terracotta Army Pavilion"
+    },
+    {
+      "name": "Xian_2.jpg",
+      "description": "Big Wild Goose Pagoda, Xi’an"
+    },
+    {
+      "name": "Xian_3.jpg",
+      "description": "Big Wild Goose Pagoda, Xi’an"
+    },
+    {
+      "name": "Xian_4.jpg",
+      "description": "Bronze Chariot of Qin Shi Huang"
+    },
+    {
+      "name": "Xian_5.jpg",
+      "description": "Bronze Chariot of Qin Shi Huang"
+    }
   ],
   "Cuisine": [
-    "Abalone.jpg",
-    "Bago fruit sellers.jpg",
-    "Cambodia fruits & silver.JPG",
-    "China cooking_2008.jpg",
-    "China wok.jpg",
-    "Cuttlefish.JPG",
-    "Eggplants.jpg",
-    "Field Stone vinery.JPG",
-    "Galangal.JPG",
-    "Genova pastorma.JPG",
-    "Goose naturmort.jpg",
-    "Langust.jpg",
-    "Langustine Bangkok.jpg",
-    "Moscow sturgeon.jpg",
-    "Peking duck & Char Siu.JPG",
-    "Phuket night market.JPG",
-    "Pineapple guava.JPG",
-    "Pomerganat & quince.JPG",
-    "Thai fish.JPG",
-    "Tsukiji_1.JPG",
-    "Tsukiji_2.JPG",
-    "Tsukiji_3.JPG",
-    "Tsukiji_4.JPG",
-    "Tsukiji_5.JPG",
-    "Yangon tomato wok.jpg"
+    {
+      "name": "Abalone.jpg",
+      "description": "Beautiful Abalone in the Shell at the Old Tsukiji Market, Tokyo"
+    },
+    {
+      "name": "Bago fruit sellers.jpg",
+      "description": "Burmese Women Selling Watermelons and Betel in Bago (Pegu)"
+    },
+    {
+      "name": "Cambodia fruits & silver.JPG",
+      "description": "Cambodia fruits & silver"
+    },
+    {
+      "name": "China cooking_2008.jpg",
+      "description": "A Cooking Class Somewhere in China, 2008"
+    },
+    {
+      "name": "China wok.jpg",
+      "description": "The Chinese Answer to Induction Cooking"
+    },
+    {
+      "name": "Cuttlefish.JPG",
+      "description": "Roasted Cuttlefish, Papaya Salad — Dinner Is Ready!"
+    },
+    {
+      "name": "Eggplants.jpg",
+      "description": "Eggplants"
+    },
+    {
+      "name": "Field Stone vinery.JPG",
+      "description": "Petite Sirah Resting in the Cellar at Field Stone, Alexander Valley, California"
+    },
+    {
+      "name": "Galangal.JPG",
+      "description": "Fresh Galangal, Just as It Grows in Thailand"
+    },
+    {
+      "name": "Genova pastorma.JPG",
+      "description": "All the Riches of Beautiful Genoa"
+    },
+    {
+      "name": "Goose naturmort.jpg",
+      "description": "Still Life with Geese, Apples and Grapes, Moscow"
+    },
+    {
+      "name": "Langust.jpg",
+      "description": "Spiny Lobsters in Full Regalia, Bangkok"
+    },
+    {
+      "name": "Langustine Bangkok.jpg",
+      "description": "Langustine Bangkok"
+    },
+    {
+      "name": "Moscow sturgeon.jpg",
+      "description": "Georgian Rkatsiteli Qvevri — a Perfect Match for Cold-Smoked Sturgeon"
+    },
+    {
+      "name": "Peking duck & Char Siu.JPG",
+      "description": "Peking duck & Char Siu"
+    },
+    {
+      "name": "Phuket night market.JPG",
+      "description": "Phuket Night Market in All Its Glory — Lobsters, Giant Prawns, Oysters, Mussels and the Day’s Catch Gleaming on Ice"
+    },
+    {
+      "name": "Pineapple guava.JPG",
+      "description": "Pineapple guava"
+    },
+    {
+      "name": "Pomerganat & quince.JPG",
+      "description": "Pomerganat & quince"
+    },
+    {
+      "name": "Thai fish.JPG",
+      "description": "Grilled Fish on Skewers, Phuket"
+    },
+    {
+      "name": "Tsukiji_1.JPG",
+      "description": "Impossibly Fresh Squid at the Old Tsukiji Market, Tokyo"
+    },
+    {
+      "name": "Tsukiji_2.JPG",
+      "description": "Lustrous Scallops at the Old Tsukiji Market, Tokyo"
+    },
+    {
+      "name": "Tsukiji_3.JPG",
+      "description": "A Bounty of Fresh Shellfish at the Old Tsukiji Market, Tokyo"
+    },
+    {
+      "name": "Tsukiji_4.JPG",
+      "description": "Pristine Fresh Tuna at the Old Tsukiji Market, Tokyo"
+    },
+    {
+      "name": "Tsukiji_5.JPG",
+      "description": "Glistening Salmon Roe at the Old Tsukiji Market, Tokyo"
+    },
+    {
+      "name": "Yangon tomato wok.jpg",
+      "description": "A Burmese Woman in the Rain, Simmering Tomatoes Down into Sauce, Yangon"
+    }
   ],
   "Dad’s family": [
-    "Boris 1963.jpg",
-    "Boris 2021.jpg",
-    "Dacha Ustinovka.jpg",
-    "Dad 2015.JPG",
-    "Dad and Tim 1968.jpg",
-    "Dad_1962.jpg",
-    "Dad_1964.jpg",
-    "Grandma Nataly.jpg",
-    "Grandpa Jakob.jpg",
-    "Jakob 1942.jpg",
-    "Jakob 1945 retush-color.png",
-    "Jakob 1945 retush.png",
-    "Jakob 1945.jpg",
-    "Jakob and Tim.jpg",
-    "Nataly Kuvaeva.jpeg"
+    {
+      "name": "Boris 1963.jpg",
+      "description": "Boris 1963"
+    },
+    {
+      "name": "Boris 2021.jpg",
+      "description": "Boris 2021"
+    },
+    {
+      "name": "Dacha Ustinovka.jpg",
+      "description": "Dacha Ustinovka"
+    },
+    {
+      "name": "Dad 2015.JPG",
+      "description": "Dad 2015"
+    },
+    {
+      "name": "Dad and Tim 1968.jpg",
+      "description": "Dad and Tim 1968"
+    },
+    {
+      "name": "Dad_1962.jpg",
+      "description": "Dad_1962"
+    },
+    {
+      "name": "Dad_1964.jpg",
+      "description": "Dad_1964"
+    },
+    {
+      "name": "Grandma Nataly.jpg",
+      "description": "Grandma Nataly"
+    },
+    {
+      "name": "Grandpa Jakob.jpg",
+      "description": "Grandpa Jakob"
+    },
+    {
+      "name": "Jakob 1942.jpg",
+      "description": "Jakob 1942"
+    },
+    {
+      "name": "Jakob 1945 retush-color.png",
+      "description": "Jakob 1945 retush-color"
+    },
+    {
+      "name": "Jakob 1945 retush.png",
+      "description": "Jakob 1945 retush"
+    },
+    {
+      "name": "Jakob 1945.jpg",
+      "description": "Jakob 1945"
+    },
+    {
+      "name": "Jakob and Tim.jpg",
+      "description": "Jakob and Tim"
+    },
+    {
+      "name": "Nataly Kuvaeva.jpeg",
+      "description": "Nataly Kuvaeva"
+    }
   ],
   "Fiji": [
-    "Fiji_1 2010.jpg",
-    "Fiji_2.jpg",
-    "Fiji_3.jpg",
-    "Fiji_4.jpg",
-    "Fiji_5.jpg",
-    "Fiji_6.jpg",
-    "Fiji_7.jpg",
-    "Fiji_8.jpg",
-    "Fiji_9.jpg",
-    "Fiji_10.jpg"
+    {
+      "name": "Fiji_1 2010.jpg",
+      "description": "Fiji_1 2010"
+    },
+    {
+      "name": "Fiji_2.jpg",
+      "description": "Fiji_2"
+    },
+    {
+      "name": "Fiji_3.jpg",
+      "description": "Fiji_3"
+    },
+    {
+      "name": "Fiji_4.jpg",
+      "description": "Fiji_4"
+    },
+    {
+      "name": "Fiji_5.jpg",
+      "description": "Fiji_5"
+    },
+    {
+      "name": "Fiji_6.jpg",
+      "description": "Fiji_6"
+    },
+    {
+      "name": "Fiji_7.jpg",
+      "description": "Fiji_7"
+    },
+    {
+      "name": "Fiji_8.jpg",
+      "description": "Fiji_8"
+    },
+    {
+      "name": "Fiji_9.jpg",
+      "description": "Fiji_9"
+    },
+    {
+      "name": "Fiji_10.jpg",
+      "description": "Fiji_10"
+    }
   ],
   "Florence": [
-    "Firenze Duomo.jpg",
-    "Florence_1 2006.jpg",
-    "Florence_1.jpg",
-    "Florence_2 2006.jpg",
-    "Florence_2.jpg",
-    "Florence_3.jpg",
-    "Florence_4.jpg",
-    "Florence_5.jpg",
-    "Florence_6.jpg",
-    "Florence_7.jpg",
-    "Florence_8.jpg",
-    "Florence_9.jpg",
-    "Florence_10.jpg",
-    "Florence_11.jpg",
-    "Florence_12.jpg",
-    "Florence_13.jpg"
+    {
+      "name": "Firenze Duomo.jpg",
+      "description": "Firenze Duomo"
+    },
+    {
+      "name": "Florence_1 2006.jpg",
+      "description": "Florence_1 2006"
+    },
+    {
+      "name": "Florence_1.jpg",
+      "description": "Florence_1"
+    },
+    {
+      "name": "Florence_2 2006.jpg",
+      "description": "Florence_2 2006"
+    },
+    {
+      "name": "Florence_2.jpg",
+      "description": "Florence_2"
+    },
+    {
+      "name": "Florence_3.jpg",
+      "description": "Florence_3"
+    },
+    {
+      "name": "Florence_4.jpg",
+      "description": "Florence_4"
+    },
+    {
+      "name": "Florence_5.jpg",
+      "description": "Florence_5"
+    },
+    {
+      "name": "Florence_6.jpg",
+      "description": "Florence_6"
+    },
+    {
+      "name": "Florence_7.jpg",
+      "description": "Florence_7"
+    },
+    {
+      "name": "Florence_8.jpg",
+      "description": "Florence_8"
+    },
+    {
+      "name": "Florence_9.jpg",
+      "description": "Florence_9"
+    },
+    {
+      "name": "Florence_10.jpg",
+      "description": "Florence_10"
+    },
+    {
+      "name": "Florence_11.jpg",
+      "description": "Florence_11"
+    },
+    {
+      "name": "Florence_12.jpg",
+      "description": "Florence_12"
+    },
+    {
+      "name": "Florence_13.jpg",
+      "description": "Florence_13"
+    }
   ],
   "Galapagos": [
-    "Galapagos_1 2017.JPG",
-    "Galapagos_2.JPG",
-    "Galapagos_3.JPG",
-    "Galapagos_4.JPG",
-    "Galapagos_5.JPG",
-    "Galapagos_6.JPG",
-    "Galapagos_7.JPG",
-    "Galapagos_8.JPG",
-    "Galapagos_9.JPG"
+    {
+      "name": "Galapagos_1 2017.JPG",
+      "description": "Galapagos_1 2017"
+    },
+    {
+      "name": "Galapagos_2.JPG",
+      "description": "Galapagos_2"
+    },
+    {
+      "name": "Galapagos_3.JPG",
+      "description": "Galapagos_3"
+    },
+    {
+      "name": "Galapagos_4.JPG",
+      "description": "Galapagos_4"
+    },
+    {
+      "name": "Galapagos_5.JPG",
+      "description": "Galapagos_5"
+    },
+    {
+      "name": "Galapagos_6.JPG",
+      "description": "Galapagos_6"
+    },
+    {
+      "name": "Galapagos_7.JPG",
+      "description": "Galapagos_7"
+    },
+    {
+      "name": "Galapagos_8.JPG",
+      "description": "Galapagos_8"
+    },
+    {
+      "name": "Galapagos_9.JPG",
+      "description": "Galapagos_9"
+    }
   ],
   "Ganga": [
-    "Khajuraho_1.jpg",
-    "Khajuraho_2.jpg",
-    "Khajuraho_4.JPG",
-    "Khajuraho_5.JPG",
-    "Khajuraho_6.JPG",
-    "Khajurajo_3.jpg",
-    "Monk at Bodh Gaya.jpg",
-    "Old hamam.jpg",
-    "Pandaw_1.JPG",
-    "Pandaw_2.JPG",
-    "Pandaw_3.JPG",
-    "Taj Mahal_1.JPG",
-    "Taj Mahal_2.JPG",
-    "Taj Mahal_3.jpg",
-    "Varanasi_1.jpg",
-    "Varanasi_2.JPG",
-    "Varanasi_3.JPG",
-    "Varanasi_4.JPG",
-    "Varanasi_5.JPG",
-    "Varanasi_6.JPG"
+    {
+      "name": "Khajuraho_1.jpg",
+      "description": "Khajuraho_1"
+    },
+    {
+      "name": "Khajuraho_2.jpg",
+      "description": "Khajuraho_2"
+    },
+    {
+      "name": "Khajuraho_4.JPG",
+      "description": "Khajuraho_4"
+    },
+    {
+      "name": "Khajuraho_5.JPG",
+      "description": "Khajuraho_5"
+    },
+    {
+      "name": "Khajuraho_6.JPG",
+      "description": "Khajuraho_6"
+    },
+    {
+      "name": "Khajurajo_3.jpg",
+      "description": "Khajurajo_3"
+    },
+    {
+      "name": "Monk at Bodh Gaya.jpg",
+      "description": "Monk at Bodh Gaya"
+    },
+    {
+      "name": "Old hamam.jpg",
+      "description": "Old hamam"
+    },
+    {
+      "name": "Pandaw_1.JPG",
+      "description": "Pandaw_1"
+    },
+    {
+      "name": "Pandaw_2.JPG",
+      "description": "Pandaw_2"
+    },
+    {
+      "name": "Pandaw_3.JPG",
+      "description": "Pandaw_3"
+    },
+    {
+      "name": "Taj Mahal_1.JPG",
+      "description": "Taj Mahal_1"
+    },
+    {
+      "name": "Taj Mahal_2.JPG",
+      "description": "Taj Mahal_2"
+    },
+    {
+      "name": "Taj Mahal_3.jpg",
+      "description": "Taj Mahal_3"
+    },
+    {
+      "name": "Varanasi_1.jpg",
+      "description": "Varanasi_1"
+    },
+    {
+      "name": "Varanasi_2.JPG",
+      "description": "Varanasi_2"
+    },
+    {
+      "name": "Varanasi_3.JPG",
+      "description": "Varanasi_3"
+    },
+    {
+      "name": "Varanasi_4.JPG",
+      "description": "Varanasi_4"
+    },
+    {
+      "name": "Varanasi_5.JPG",
+      "description": "Varanasi_5"
+    },
+    {
+      "name": "Varanasi_6.JPG",
+      "description": "Varanasi_6"
+    }
   ],
   "Genova": [
-    "Bogliasco_1.JPG",
-    "Bogliasco_2.JPG",
-    "Bogliasco_3.JPG",
-    "Bogliasco_4.JPG",
-    "Bogliasco_5.JPG",
-    "Bogliasco_6.JPG",
-    "San Fruttioso_2.JPG",
-    "San Fruttuoso_1.JPG",
-    "San Fruttuoso_3.JPG",
-    "San Fruttuoso_4.JPG",
-    "San Lorenzo.JPG",
-    "Venti settembre.JPG"
+    {
+      "name": "Bogliasco_1.JPG",
+      "description": "Bogliasco_1"
+    },
+    {
+      "name": "Bogliasco_2.JPG",
+      "description": "Bogliasco_2"
+    },
+    {
+      "name": "Bogliasco_3.JPG",
+      "description": "Bogliasco_3"
+    },
+    {
+      "name": "Bogliasco_4.JPG",
+      "description": "Bogliasco_4"
+    },
+    {
+      "name": "Bogliasco_5.JPG",
+      "description": "Bogliasco_5"
+    },
+    {
+      "name": "Bogliasco_6.JPG",
+      "description": "Bogliasco_6"
+    },
+    {
+      "name": "San Fruttioso_2.JPG",
+      "description": "San Fruttioso_2"
+    },
+    {
+      "name": "San Fruttuoso_1.JPG",
+      "description": "San Fruttuoso_1"
+    },
+    {
+      "name": "San Fruttuoso_3.JPG",
+      "description": "San Fruttuoso_3"
+    },
+    {
+      "name": "San Fruttuoso_4.JPG",
+      "description": "San Fruttuoso_4"
+    },
+    {
+      "name": "San Lorenzo.JPG",
+      "description": "San Lorenzo"
+    },
+    {
+      "name": "Venti settembre.JPG",
+      "description": "Venti settembre"
+    }
   ],
   "Hagia Sophia": [
-    "Boukoleon_1.jpg",
-    "Boukoleon_2.jpg",
-    "Boukoleon_3.jpg",
-    "Boukoleon_4.jpg",
-    "Boukoleon_from GLK mansion.jpg",
-    "Christocline.jpg",
-    "City walls.jpg",
-    "Constantine column.jpg",
-    "Egyptian obelisk.jpg",
-    "Fiala Blue_1st floor.jpg",
-    "Hagia Sophia_1.jpg",
-    "Hagia Sophia_2.jpg",
-    "Hagia Sophia_3.jpg",
-    "Hagia Sophia_4.jpg",
-    "Hagia Sophia_5.jpg",
-    "Hagia Sophia_6.jpg",
-    "Hagia Sophia_7.jpg",
-    "Hipodrome.jpg",
-    "Lugal Dalu_1.jpg",
-    "Lugal Dalu_2.jpg",
-    "Obelisk.jpg",
-    "Pantocrator 2026.jpg",
-    "Pantocrator.jpg",
-    "Platea column and obelisk.jpg"
+    {
+      "name": "Boukoleon_1.jpg",
+      "description": "Boukoleon_1"
+    },
+    {
+      "name": "Boukoleon_2.jpg",
+      "description": "Boukoleon_2"
+    },
+    {
+      "name": "Boukoleon_3.jpg",
+      "description": "Boukoleon_3"
+    },
+    {
+      "name": "Boukoleon_4.jpg",
+      "description": "Boukoleon_4"
+    },
+    {
+      "name": "Boukoleon_from GLK mansion.jpg",
+      "description": "Boukoleon_from GLK mansion"
+    },
+    {
+      "name": "Christocline.jpg",
+      "description": "Christocline"
+    },
+    {
+      "name": "City walls.jpg",
+      "description": "City walls"
+    },
+    {
+      "name": "Constantine column.jpg",
+      "description": "Constantine column"
+    },
+    {
+      "name": "Egyptian obelisk.jpg",
+      "description": "Egyptian obelisk"
+    },
+    {
+      "name": "Fiala Blue_1st floor.jpg",
+      "description": "Fiala Blue_1st floor"
+    },
+    {
+      "name": "Hagia Sophia_1.jpg",
+      "description": "Hagia Sophia_1"
+    },
+    {
+      "name": "Hagia Sophia_2.jpg",
+      "description": "Hagia Sophia_2"
+    },
+    {
+      "name": "Hagia Sophia_3.jpg",
+      "description": "Hagia Sophia_3"
+    },
+    {
+      "name": "Hagia Sophia_4.jpg",
+      "description": "Hagia Sophia_4"
+    },
+    {
+      "name": "Hagia Sophia_5.jpg",
+      "description": "Hagia Sophia_5"
+    },
+    {
+      "name": "Hagia Sophia_6.jpg",
+      "description": "Hagia Sophia_6"
+    },
+    {
+      "name": "Hagia Sophia_7.jpg",
+      "description": "Hagia Sophia_7"
+    },
+    {
+      "name": "Hipodrome.jpg",
+      "description": "Hipodrome"
+    },
+    {
+      "name": "Lugal Dalu_1.jpg",
+      "description": "Lugal Dalu_1"
+    },
+    {
+      "name": "Lugal Dalu_2.jpg",
+      "description": "Lugal Dalu_2"
+    },
+    {
+      "name": "Obelisk.jpg",
+      "description": "Obelisk"
+    },
+    {
+      "name": "Pantocrator 2026.jpg",
+      "description": "Pantocrator 2026"
+    },
+    {
+      "name": "Pantocrator.jpg",
+      "description": "Pantocrator"
+    },
+    {
+      "name": "Platea column and obelisk.jpg",
+      "description": "Platea column and obelisk"
+    }
   ],
   "Irrawaddy": [
-    "Bagan_1.jpg",
-    "Bagan_2.jpg",
-    "Bagan_3.jpg",
-    "Bagan_4.jpg",
-    "Bridge_1.jpg",
-    "Bridge_2.jpg",
-    "Bridge_3.jpg",
-    "Mandalay.jpg",
-    "Pandaw_1 2019.jpg",
-    "Pandaw_2 2019.jpg",
-    "Pandaw_3.jpg",
-    "Ruby catch 2019.jpg",
-    "Sapphire catch_1.jpg",
-    "Sapphire catch_2.jpg",
-    "Yadana Hsemee_1.jpg",
-    "Yadana Hsemee_2.jpg",
-    "Yadana Hsemee_3.jpg"
+    {
+      "name": "Bagan_1.jpg",
+      "description": "Bagan_1"
+    },
+    {
+      "name": "Bagan_2.jpg",
+      "description": "Bagan_2"
+    },
+    {
+      "name": "Bagan_3.jpg",
+      "description": "Bagan_3"
+    },
+    {
+      "name": "Bagan_4.jpg",
+      "description": "Bagan_4"
+    },
+    {
+      "name": "Bridge_1.jpg",
+      "description": "Bridge_1"
+    },
+    {
+      "name": "Bridge_2.jpg",
+      "description": "Bridge_2"
+    },
+    {
+      "name": "Bridge_3.jpg",
+      "description": "Bridge_3"
+    },
+    {
+      "name": "Mandalay.jpg",
+      "description": "Mandalay"
+    },
+    {
+      "name": "Pandaw_1 2019.jpg",
+      "description": "Pandaw_1 2019"
+    },
+    {
+      "name": "Pandaw_2 2019.jpg",
+      "description": "Pandaw_2 2019"
+    },
+    {
+      "name": "Pandaw_3.jpg",
+      "description": "Pandaw_3"
+    },
+    {
+      "name": "Ruby catch 2019.jpg",
+      "description": "Ruby catch 2019"
+    },
+    {
+      "name": "Sapphire catch_1.jpg",
+      "description": "Sapphire catch_1"
+    },
+    {
+      "name": "Sapphire catch_2.jpg",
+      "description": "Sapphire catch_2"
+    },
+    {
+      "name": "Yadana Hsemee_1.jpg",
+      "description": "Yadana Hsemee_1"
+    },
+    {
+      "name": "Yadana Hsemee_2.jpg",
+      "description": "Yadana Hsemee_2"
+    },
+    {
+      "name": "Yadana Hsemee_3.jpg",
+      "description": "Yadana Hsemee_3"
+    }
   ],
   "Kenya": [
-    "Kenya_1.jpg",
-    "Kenya_2.jpg",
-    "Kenya_3.jpg",
-    "Kenya_4.jpg",
-    "Kenya_5.jpg",
-    "Kenya_6.jpg",
-    "Kenya_7.jpg",
-    "Kenya_8.jpg",
-    "Kenya_9.jpg",
-    "Kenya_10.jpg",
-    "Kenya_11.jpg",
-    "Kenya_12.jpg",
-    "Kenya_13.jpg",
-    "Kenya_14.jpg",
-    "Kenya_15.jpg",
-    "Kenya_16.jpg",
-    "Kenya_17.jpg",
-    "Kenya_18.jpg",
-    "Kenya_19.jpg",
-    "Kenya_20.jpg",
-    "Kenya_21.jpg",
-    "Kenya_22.jpg",
-    "Kenya_23.jpg"
+    {
+      "name": "Kenya_1.jpg",
+      "description": "Kenya_1"
+    },
+    {
+      "name": "Kenya_2.jpg",
+      "description": "Kenya_2"
+    },
+    {
+      "name": "Kenya_3.jpg",
+      "description": "Kenya_3"
+    },
+    {
+      "name": "Kenya_4.jpg",
+      "description": "Kenya_4"
+    },
+    {
+      "name": "Kenya_5.jpg",
+      "description": "Kenya_5"
+    },
+    {
+      "name": "Kenya_6.jpg",
+      "description": "Kenya_6"
+    },
+    {
+      "name": "Kenya_7.jpg",
+      "description": "Kenya_7"
+    },
+    {
+      "name": "Kenya_8.jpg",
+      "description": "Kenya_8"
+    },
+    {
+      "name": "Kenya_9.jpg",
+      "description": "Kenya_9"
+    },
+    {
+      "name": "Kenya_10.jpg",
+      "description": "Kenya_10"
+    },
+    {
+      "name": "Kenya_11.jpg",
+      "description": "Kenya_11"
+    },
+    {
+      "name": "Kenya_12.jpg",
+      "description": "Kenya_12"
+    },
+    {
+      "name": "Kenya_13.jpg",
+      "description": "Kenya_13"
+    },
+    {
+      "name": "Kenya_14.jpg",
+      "description": "Kenya_14"
+    },
+    {
+      "name": "Kenya_15.jpg",
+      "description": "Kenya_15"
+    },
+    {
+      "name": "Kenya_16.jpg",
+      "description": "Kenya_16"
+    },
+    {
+      "name": "Kenya_17.jpg",
+      "description": "Kenya_17"
+    },
+    {
+      "name": "Kenya_18.jpg",
+      "description": "Kenya_18"
+    },
+    {
+      "name": "Kenya_19.jpg",
+      "description": "Kenya_19"
+    },
+    {
+      "name": "Kenya_20.jpg",
+      "description": "Kenya_20"
+    },
+    {
+      "name": "Kenya_21.jpg",
+      "description": "Kenya_21"
+    },
+    {
+      "name": "Kenya_22.jpg",
+      "description": "Kenya_22"
+    },
+    {
+      "name": "Kenya_23.jpg",
+      "description": "Kenya_23"
+    }
   ],
   "Kyoto": [
-    "Fujiyama_2010.jpg",
-    "Girl with daisho.jpg",
-    "Grandpa.jpg",
-    "Kamakura Buddha_2010.jpg",
-    "Kinkakuji_1.jpg",
-    "Kinkakuji_2.jpg",
-    "Kyoto ryocan_2010.jpg",
-    "Kyoto_1.jpg",
-    "Kyoto_2.jpg",
-    "Kyoto_3.jpg",
-    "Kyoto_4.jpg",
-    "Purple chrysanthemum.jpg",
-    "Samurai in armour.jpg",
-    "White chrysanthemum.jpg"
+    {
+      "name": "Fujiyama_2010.jpg",
+      "description": "Fujiyama_2010"
+    },
+    {
+      "name": "Girl with daisho.jpg",
+      "description": "Girl with daisho"
+    },
+    {
+      "name": "Grandpa.jpg",
+      "description": "Grandpa"
+    },
+    {
+      "name": "Kamakura Buddha_2010.jpg",
+      "description": "Kamakura Buddha_2010"
+    },
+    {
+      "name": "Kinkakuji_1.jpg",
+      "description": "Kinkakuji_1"
+    },
+    {
+      "name": "Kinkakuji_2.jpg",
+      "description": "Kinkakuji_2"
+    },
+    {
+      "name": "Kyoto ryocan_2010.jpg",
+      "description": "Kyoto ryocan_2010"
+    },
+    {
+      "name": "Kyoto_1.jpg",
+      "description": "Kyoto_1"
+    },
+    {
+      "name": "Kyoto_2.jpg",
+      "description": "Kyoto_2"
+    },
+    {
+      "name": "Kyoto_3.jpg",
+      "description": "Kyoto_3"
+    },
+    {
+      "name": "Kyoto_4.jpg",
+      "description": "Kyoto_4"
+    },
+    {
+      "name": "Purple chrysanthemum.jpg",
+      "description": "Purple chrysanthemum"
+    },
+    {
+      "name": "Samurai in armour.jpg",
+      "description": "Samurai in armour"
+    },
+    {
+      "name": "White chrysanthemum.jpg",
+      "description": "White chrysanthemum"
+    }
   ],
   "Machupicchu": [
-    "Inka thrones.JPG",
-    "Inka trail.JPG",
-    "Machupicchu_1.JPG",
-    "Machupicchu_2.JPG",
-    "Machupicchu_3.JPG",
-    "Machupicchu_4.JPG",
-    "Ollantaytambo_1 2017.JPG",
-    "Ollantaytambo_2.JPG",
-    "Urubamba river.JPG"
+    {
+      "name": "Inka thrones.JPG",
+      "description": "Inka thrones"
+    },
+    {
+      "name": "Inka trail.JPG",
+      "description": "Inka trail"
+    },
+    {
+      "name": "Machupicchu_1.JPG",
+      "description": "Machupicchu_1"
+    },
+    {
+      "name": "Machupicchu_2.JPG",
+      "description": "Machupicchu_2"
+    },
+    {
+      "name": "Machupicchu_3.JPG",
+      "description": "Machupicchu_3"
+    },
+    {
+      "name": "Machupicchu_4.JPG",
+      "description": "Machupicchu_4"
+    },
+    {
+      "name": "Ollantaytambo_1 2017.JPG",
+      "description": "Ollantaytambo_1 2017"
+    },
+    {
+      "name": "Ollantaytambo_2.JPG",
+      "description": "Ollantaytambo_2"
+    },
+    {
+      "name": "Urubamba river.JPG",
+      "description": "Urubamba river"
+    }
   ],
   "Mekong": [
-    "Golgen triangle.JPG",
-    "Laos.JPG",
-    "Mekong_1 2011.JPG",
-    "Mekong_2.JPG",
-    "Mekong_3.jpg",
-    "Mekong_4.jpg",
-    "Mekong_5.jpg",
-    "Mekong_6.jpg",
-    "Mekong_7.jpg",
-    "Mekong_8.jpg",
-    "Mekong_9.jpg",
-    "Pandaw.JPG"
+    {
+      "name": "Golgen triangle.JPG",
+      "description": "Golgen triangle"
+    },
+    {
+      "name": "Laos.JPG",
+      "description": "Laos"
+    },
+    {
+      "name": "Mekong_1 2011.JPG",
+      "description": "Mekong_1 2011"
+    },
+    {
+      "name": "Mekong_2.JPG",
+      "description": "Mekong_2"
+    },
+    {
+      "name": "Mekong_3.jpg",
+      "description": "Mekong_3"
+    },
+    {
+      "name": "Mekong_4.jpg",
+      "description": "Mekong_4"
+    },
+    {
+      "name": "Mekong_5.jpg",
+      "description": "Mekong_5"
+    },
+    {
+      "name": "Mekong_6.jpg",
+      "description": "Mekong_6"
+    },
+    {
+      "name": "Mekong_7.jpg",
+      "description": "Mekong_7"
+    },
+    {
+      "name": "Mekong_8.jpg",
+      "description": "Mekong_8"
+    },
+    {
+      "name": "Mekong_9.jpg",
+      "description": "Mekong_9"
+    },
+    {
+      "name": "Pandaw.JPG",
+      "description": "Pandaw"
+    }
   ],
   "Mom’s family": [
-    "Alexander and Tim.jpg",
-    "Alexander Eugenia and Sima.jpg",
-    "Alexander_1.jpg",
-    "Alexander_2.jpg",
-    "Alexander_3.jpg",
-    "Alexander_4.jpg",
-    "Alexander_5.jpg",
-    "Apolinaria 1965.jpg",
-    "Apolinaria_1.jpg",
-    "Apolinaria_2.jpg",
-    "Apolinaria_3.jpg",
-    "Apolinaria_4.jpg",
-    "Apolinaria_5.jpg",
-    "Apolinaria_6.jpg",
-    "Apolinaria_7.jpeg",
-    "Dominica and Michael.jpg",
-    "Eugenia Alexander and Seraphima.jpg",
-    "Eugenia and Alexander.jpg",
-    "Eugenia and Apolinaria_1.jpg",
-    "Eugenia and Apolinaria_2.jpg",
-    "Eugenia self-portrait.jpg",
-    "German cemetery_1.JPG",
-    "German cemetery_2.JPG",
-    "Jakob and Mom.jpg",
-    "Mom 1962.jpg",
-    "Mom 1967.jpg",
-    "Mom and dad wedding 1963.jpg",
-    "Mom and Tim 1964.jpg",
-    "Mom and Tim 1968.jpg",
-    "Mom and Tim 1969.jpg",
-    "Mom and Tim_1 1965.jpg",
-    "Mom and Tim_1 1971.jpg",
-    "Mom and Tim_2 1965.jpg",
-    "Mom and Tim_2 1971.jpg",
-    "New Year eve 2004.jpg",
-    "Seraphima .jpg",
-    "Seraphima 2007.jpg",
-    "Seraphima and Alexander.jpg",
-    "Seraphima and Eugenia 2007.jpg",
-    "Seraphima and Michael.jpg",
-    "Seraphima and Mom.jpg",
-    "Seraphima Mom Natalia.jpg",
-    "Seraphima Nikolai Eugenia.jpg"
+    {
+      "name": "Alexander and Tim.jpg",
+      "description": "Alexander and Tim"
+    },
+    {
+      "name": "Alexander Eugenia and Sima.jpg",
+      "description": "Alexander Eugenia and Sima"
+    },
+    {
+      "name": "Alexander_1.jpg",
+      "description": "Alexander_1"
+    },
+    {
+      "name": "Alexander_2.jpg",
+      "description": "Alexander_2"
+    },
+    {
+      "name": "Alexander_3.jpg",
+      "description": "Alexander_3"
+    },
+    {
+      "name": "Alexander_4.jpg",
+      "description": "Alexander_4"
+    },
+    {
+      "name": "Alexander_5.jpg",
+      "description": "Alexander_5"
+    },
+    {
+      "name": "Apolinaria 1965.jpg",
+      "description": "Apolinaria 1965"
+    },
+    {
+      "name": "Apolinaria_1.jpg",
+      "description": "Apolinaria_1"
+    },
+    {
+      "name": "Apolinaria_2.jpg",
+      "description": "Apolinaria_2"
+    },
+    {
+      "name": "Apolinaria_3.jpg",
+      "description": "Apolinaria_3"
+    },
+    {
+      "name": "Apolinaria_4.jpg",
+      "description": "Apolinaria_4"
+    },
+    {
+      "name": "Apolinaria_5.jpg",
+      "description": "Apolinaria_5"
+    },
+    {
+      "name": "Apolinaria_6.jpg",
+      "description": "Apolinaria_6"
+    },
+    {
+      "name": "Apolinaria_7.jpeg",
+      "description": "Apolinaria_7"
+    },
+    {
+      "name": "Dominica and Michael.jpg",
+      "description": "Dominica and Michael"
+    },
+    {
+      "name": "Eugenia Alexander and Seraphima.jpg",
+      "description": "Eugenia Alexander and Seraphima"
+    },
+    {
+      "name": "Eugenia and Alexander.jpg",
+      "description": "Eugenia and Alexander"
+    },
+    {
+      "name": "Eugenia and Apolinaria_1.jpg",
+      "description": "Eugenia and Apolinaria_1"
+    },
+    {
+      "name": "Eugenia and Apolinaria_2.jpg",
+      "description": "Eugenia and Apolinaria_2"
+    },
+    {
+      "name": "Eugenia self-portrait.jpg",
+      "description": "Eugenia self-portrait"
+    },
+    {
+      "name": "German cemetery_1.JPG",
+      "description": "German cemetery_1"
+    },
+    {
+      "name": "German cemetery_2.JPG",
+      "description": "German cemetery_2"
+    },
+    {
+      "name": "Jakob and Mom.jpg",
+      "description": "Jakob and Mom"
+    },
+    {
+      "name": "Mom 1962.jpg",
+      "description": "Mom 1962"
+    },
+    {
+      "name": "Mom 1967.jpg",
+      "description": "Mom 1967"
+    },
+    {
+      "name": "Mom and dad wedding 1963.jpg",
+      "description": "Mom and dad wedding 1963"
+    },
+    {
+      "name": "Mom and Tim 1964.jpg",
+      "description": "Mom and Tim 1964"
+    },
+    {
+      "name": "Mom and Tim 1968.jpg",
+      "description": "Mom and Tim 1968"
+    },
+    {
+      "name": "Mom and Tim 1969.jpg",
+      "description": "Mom and Tim 1969"
+    },
+    {
+      "name": "Mom and Tim_1 1965.jpg",
+      "description": "Mom and Tim_1 1965"
+    },
+    {
+      "name": "Mom and Tim_1 1971.jpg",
+      "description": "Mom and Tim_1 1971"
+    },
+    {
+      "name": "Mom and Tim_2 1965.jpg",
+      "description": "Mom and Tim_2 1965"
+    },
+    {
+      "name": "Mom and Tim_2 1971.jpg",
+      "description": "Mom and Tim_2 1971"
+    },
+    {
+      "name": "New Year eve 2004.jpg",
+      "description": "New Year eve 2004"
+    },
+    {
+      "name": "Seraphima .jpg",
+      "description": "Seraphima "
+    },
+    {
+      "name": "Seraphima 2007.jpg",
+      "description": "Seraphima 2007"
+    },
+    {
+      "name": "Seraphima and Alexander.jpg",
+      "description": "Seraphima and Alexander"
+    },
+    {
+      "name": "Seraphima and Eugenia 2007.jpg",
+      "description": "Seraphima and Eugenia 2007"
+    },
+    {
+      "name": "Seraphima and Michael.jpg",
+      "description": "Seraphima and Michael"
+    },
+    {
+      "name": "Seraphima and Mom.jpg",
+      "description": "Seraphima and Mom"
+    },
+    {
+      "name": "Seraphima Mom Natalia.jpg",
+      "description": "Seraphima Mom Natalia"
+    },
+    {
+      "name": "Seraphima Nikolai Eugenia.jpg",
+      "description": "Seraphima Nikolai Eugenia"
+    }
   ],
   "Moscow": [
-    "Moscow_1.JPG",
-    "Moscow_2 2013.JPG",
-    "Moscow_3.JPG",
-    "Moscow_4.JPG",
-    "Moscow_5.JPG",
-    "St Basil.JPG"
+    {
+      "name": "Moscow_1.JPG",
+      "description": "Moscow_1"
+    },
+    {
+      "name": "Moscow_2 2013.JPG",
+      "description": "Moscow_2 2013"
+    },
+    {
+      "name": "Moscow_3.JPG",
+      "description": "Moscow_3"
+    },
+    {
+      "name": "Moscow_4.JPG",
+      "description": "Moscow_4"
+    },
+    {
+      "name": "Moscow_5.JPG",
+      "description": "Moscow_5"
+    },
+    {
+      "name": "St Basil.JPG",
+      "description": "St Basil"
+    }
   ],
   "Nile": [
-    "Bent pyramid_1.JPG",
-    "Bent pyramid_2.JPG",
-    "Bent pyramid_3.JPG",
-    "Giza great pyramid_1 2022.jpg",
-    "Giza great pyramid_2.jpg",
-    "Head of queen Nefertiti.JPG",
-    "Luxor_1.JPG",
-    "Luxor_2.JPG",
-    "Nefertari_1.JPG",
-    "Nefertari_2.JPG",
-    "Nefertari_3.JPG",
-    "Nefertari_4.JPG",
-    "Nefertari_5.JPG",
-    "Nefertari_6.JPG",
-    "Nefertari_7.JPG",
-    "Nefertari_8.JPG",
-    "Nefertari_9.JPG",
-    "Nefertari_10.JPG",
-    "Nefertari_11.JPG",
-    "Nefertari_12.JPG",
-    "Nefertari_13.JPG",
-    "Nefertari_14.JPG",
-    "Nefertari_15.JPG"
+    {
+      "name": "Bent pyramid_1.JPG",
+      "description": "Bent pyramid_1"
+    },
+    {
+      "name": "Bent pyramid_2.JPG",
+      "description": "Bent pyramid_2"
+    },
+    {
+      "name": "Bent pyramid_3.JPG",
+      "description": "Bent pyramid_3"
+    },
+    {
+      "name": "Giza great pyramid_1 2022.jpg",
+      "description": "Giza great pyramid_1 2022"
+    },
+    {
+      "name": "Giza great pyramid_2.jpg",
+      "description": "Giza great pyramid_2"
+    },
+    {
+      "name": "Head of queen Nefertiti.JPG",
+      "description": "Head of queen Nefertiti"
+    },
+    {
+      "name": "Luxor_1.JPG",
+      "description": "Luxor_1"
+    },
+    {
+      "name": "Luxor_2.JPG",
+      "description": "Luxor_2"
+    },
+    {
+      "name": "Nefertari_1.JPG",
+      "description": "Nefertari_1"
+    },
+    {
+      "name": "Nefertari_2.JPG",
+      "description": "Nefertari_2"
+    },
+    {
+      "name": "Nefertari_3.JPG",
+      "description": "Nefertari_3"
+    },
+    {
+      "name": "Nefertari_4.JPG",
+      "description": "Nefertari_4"
+    },
+    {
+      "name": "Nefertari_5.JPG",
+      "description": "Nefertari_5"
+    },
+    {
+      "name": "Nefertari_6.JPG",
+      "description": "Nefertari_6"
+    },
+    {
+      "name": "Nefertari_7.JPG",
+      "description": "Nefertari_7"
+    },
+    {
+      "name": "Nefertari_8.JPG",
+      "description": "Nefertari_8"
+    },
+    {
+      "name": "Nefertari_9.JPG",
+      "description": "Nefertari_9"
+    },
+    {
+      "name": "Nefertari_10.JPG",
+      "description": "Nefertari_10"
+    },
+    {
+      "name": "Nefertari_11.JPG",
+      "description": "Nefertari_11"
+    },
+    {
+      "name": "Nefertari_12.JPG",
+      "description": "Nefertari_12"
+    },
+    {
+      "name": "Nefertari_13.JPG",
+      "description": "Nefertari_13"
+    },
+    {
+      "name": "Nefertari_14.JPG",
+      "description": "Nefertari_14"
+    },
+    {
+      "name": "Nefertari_15.JPG",
+      "description": "Nefertari_15"
+    }
   ],
   "Ravenna": [
-    "Ravenna_1.jpg",
-    "Ravenna_2.jpg",
-    "Ravenna_3.jpg",
-    "Ravenna_4.jpg",
-    "Ravenna_5.jpg",
-    "Ravenna_6.jpg",
-    "Ravenna_7.jpg"
+    {
+      "name": "Ravenna_1.jpg",
+      "description": "Ravenna_1"
+    },
+    {
+      "name": "Ravenna_2.jpg",
+      "description": "Ravenna_2"
+    },
+    {
+      "name": "Ravenna_3.jpg",
+      "description": "Ravenna_3"
+    },
+    {
+      "name": "Ravenna_4.jpg",
+      "description": "Ravenna_4"
+    },
+    {
+      "name": "Ravenna_5.jpg",
+      "description": "Ravenna_5"
+    },
+    {
+      "name": "Ravenna_6.jpg",
+      "description": "Ravenna_6"
+    },
+    {
+      "name": "Ravenna_7.jpg",
+      "description": "Ravenna_7"
+    }
   ],
   "Roma": [
-    "Colosseum at night.jpg",
-    "Pantheon_2.jpg",
-    "Proserpine Borghese_1.jpg",
-    "Proserpine Borghese_2.jpg",
-    "Proserpine Borghese_3.jpg",
-    "Roma_1 2006.jpg",
-    "Roma_2 2006.jpg",
-    "Roma_3 2006.jpg",
-    "Rome_1.jpg",
-    "Rome_2.jpg",
-    "Rome_3.jpg",
-    "Rome_4.jpg",
-    "Rome_5.jpg",
-    "Rome_6.jpg",
-    "Rome_7.jpg",
-    "Rome_8.jpg",
-    "San Pietro.jpg"
+    {
+      "name": "Colosseum at night.jpg",
+      "description": "Colosseum at night"
+    },
+    {
+      "name": "Pantheon_2.jpg",
+      "description": "Pantheon_2"
+    },
+    {
+      "name": "Proserpine Borghese_1.jpg",
+      "description": "Proserpine Borghese_1"
+    },
+    {
+      "name": "Proserpine Borghese_2.jpg",
+      "description": "Proserpine Borghese_2"
+    },
+    {
+      "name": "Proserpine Borghese_3.jpg",
+      "description": "Proserpine Borghese_3"
+    },
+    {
+      "name": "Roma_1 2006.jpg",
+      "description": "Roma_1 2006"
+    },
+    {
+      "name": "Roma_2 2006.jpg",
+      "description": "Roma_2 2006"
+    },
+    {
+      "name": "Roma_3 2006.jpg",
+      "description": "Roma_3 2006"
+    },
+    {
+      "name": "Rome_1.jpg",
+      "description": "Rome_1"
+    },
+    {
+      "name": "Rome_2.jpg",
+      "description": "Rome_2"
+    },
+    {
+      "name": "Rome_3.jpg",
+      "description": "Rome_3"
+    },
+    {
+      "name": "Rome_4.jpg",
+      "description": "Rome_4"
+    },
+    {
+      "name": "Rome_5.jpg",
+      "description": "Rome_5"
+    },
+    {
+      "name": "Rome_6.jpg",
+      "description": "Rome_6"
+    },
+    {
+      "name": "Rome_7.jpg",
+      "description": "Rome_7"
+    },
+    {
+      "name": "Rome_8.jpg",
+      "description": "Rome_8"
+    },
+    {
+      "name": "San Pietro.jpg",
+      "description": "San Pietro"
+    }
   ],
   "Segovia": [
-    "Alcazar Segovia.jpg",
-    "Jewish quarter.JPG",
-    "Old jewish crypt_1.JPG",
-    "Old jewish crypt_2.JPG",
-    "Old jewish crypt_3.JPG",
-    "Segovia aqueduct_1.JPG",
-    "Segovia aqueduct_2.JPG",
-    "Segovia castle.JPG",
-    "Segovia duomo.JPG"
+    {
+      "name": "Alcazar Segovia.jpg",
+      "description": "Alcazar Segovia"
+    },
+    {
+      "name": "Jewish quarter.JPG",
+      "description": "Jewish quarter"
+    },
+    {
+      "name": "Old jewish crypt_1.JPG",
+      "description": "Old jewish crypt_1"
+    },
+    {
+      "name": "Old jewish crypt_2.JPG",
+      "description": "Old jewish crypt_2"
+    },
+    {
+      "name": "Old jewish crypt_3.JPG",
+      "description": "Old jewish crypt_3"
+    },
+    {
+      "name": "Segovia aqueduct_1.JPG",
+      "description": "Segovia aqueduct_1"
+    },
+    {
+      "name": "Segovia aqueduct_2.JPG",
+      "description": "Segovia aqueduct_2"
+    },
+    {
+      "name": "Segovia castle.JPG",
+      "description": "Segovia castle"
+    },
+    {
+      "name": "Segovia duomo.JPG",
+      "description": "Segovia duomo"
+    }
   ],
   "Shwedagon": [
-    "Bagan_1 2009.JPG",
-    "Bagan_2 2009.JPG",
-    "Bago.jpg",
-    "Golgen Rock.jpg",
-    "Irrawaddy 2014.jpg",
-    "Ruby catch.jpg",
-    "Sapphire catch.jpg",
-    "Shwe Bon Thar catch.jpg",
-    "Shwedagon 2019.jpg",
-    "Shwedagon 2026.jpg",
-    "Shwedagon monk.jpg",
-    "Shwedagon_1 2024.jpg",
-    "Shwedagon_2 2024.jpg",
-    "Shwedagon_3 2024.jpg",
-    "Shwedagon_4 2024.jpg"
+    {
+      "name": "Bagan_1 2009.JPG",
+      "description": "Bagan_1 2009"
+    },
+    {
+      "name": "Bagan_2 2009.JPG",
+      "description": "Bagan_2 2009"
+    },
+    {
+      "name": "Bago.jpg",
+      "description": "Bago"
+    },
+    {
+      "name": "Golgen Rock.jpg",
+      "description": "Golgen Rock"
+    },
+    {
+      "name": "Irrawaddy 2014.jpg",
+      "description": "Irrawaddy 2014"
+    },
+    {
+      "name": "Ruby catch.jpg",
+      "description": "Ruby catch"
+    },
+    {
+      "name": "Sapphire catch.jpg",
+      "description": "Sapphire catch"
+    },
+    {
+      "name": "Shwe Bon Thar catch.jpg",
+      "description": "Shwe Bon Thar catch"
+    },
+    {
+      "name": "Shwedagon 2019.jpg",
+      "description": "Shwedagon 2019"
+    },
+    {
+      "name": "Shwedagon 2026.jpg",
+      "description": "Shwedagon 2026"
+    },
+    {
+      "name": "Shwedagon monk.jpg",
+      "description": "Shwedagon monk"
+    },
+    {
+      "name": "Shwedagon_1 2024.jpg",
+      "description": "Shwedagon_1 2024"
+    },
+    {
+      "name": "Shwedagon_2 2024.jpg",
+      "description": "Shwedagon_2 2024"
+    },
+    {
+      "name": "Shwedagon_3 2024.jpg",
+      "description": "Shwedagon_3 2024"
+    },
+    {
+      "name": "Shwedagon_4 2024.jpg",
+      "description": "Shwedagon_4 2024"
+    }
   ],
   "Sri Lanka": [
-    "Buduruvagala_1.JPG",
-    "Buduruvagala_2.JPG",
-    "Buduruvagala_3.JPG",
-    "Ceylon tea_1.JPG",
-    "Ceylon tea_2.JPG",
-    "Lanka_1 2018.JPG",
-    "Lanka_2.JPG",
-    "Lanka_3.JPG",
-    "Lanka_4.JPG",
-    "Lanka_5.JPG",
-    "Medirigirya_1.JPG",
-    "Medirigirya_2.JPG",
-    "Medirigirya_3.JPG",
-    "Medirigirya_4.JPG",
-    "Medirigirya_5.JPG",
-    "Medirigirya_6.JPG",
-    "Medirigirya_7.JPG",
-    "Medirigirya_8.JPG",
-    "Medirigirya_9.JPG",
-    "Medirigirya_10.JPG",
-    "Medirigirya_11.JPG",
-    "Pinnawale.JPG",
-    "Polonnaruwa_1.JPG",
-    "Polonnaruwa_2.JPG",
-    "Polonnaruwa_3.JPG",
-    "Polonnaruwa_4.JPG",
-    "Polonnaruwa_5.JPG"
+    {
+      "name": "Buduruvagala_1.JPG",
+      "description": "Buduruvagala_1"
+    },
+    {
+      "name": "Buduruvagala_2.JPG",
+      "description": "Buduruvagala_2"
+    },
+    {
+      "name": "Buduruvagala_3.JPG",
+      "description": "Buduruvagala_3"
+    },
+    {
+      "name": "Ceylon tea_1.JPG",
+      "description": "Ceylon tea_1"
+    },
+    {
+      "name": "Ceylon tea_2.JPG",
+      "description": "Ceylon tea_2"
+    },
+    {
+      "name": "Lanka_1 2018.JPG",
+      "description": "Lanka_1 2018"
+    },
+    {
+      "name": "Lanka_2.JPG",
+      "description": "Lanka_2"
+    },
+    {
+      "name": "Lanka_3.JPG",
+      "description": "Lanka_3"
+    },
+    {
+      "name": "Lanka_4.JPG",
+      "description": "Lanka_4"
+    },
+    {
+      "name": "Lanka_5.JPG",
+      "description": "Lanka_5"
+    },
+    {
+      "name": "Medirigirya_1.JPG",
+      "description": "Medirigirya_1"
+    },
+    {
+      "name": "Medirigirya_2.JPG",
+      "description": "Medirigirya_2"
+    },
+    {
+      "name": "Medirigirya_3.JPG",
+      "description": "Medirigirya_3"
+    },
+    {
+      "name": "Medirigirya_4.JPG",
+      "description": "Medirigirya_4"
+    },
+    {
+      "name": "Medirigirya_5.JPG",
+      "description": "Medirigirya_5"
+    },
+    {
+      "name": "Medirigirya_6.JPG",
+      "description": "Medirigirya_6"
+    },
+    {
+      "name": "Medirigirya_7.JPG",
+      "description": "Medirigirya_7"
+    },
+    {
+      "name": "Medirigirya_8.JPG",
+      "description": "Medirigirya_8"
+    },
+    {
+      "name": "Medirigirya_9.JPG",
+      "description": "Medirigirya_9"
+    },
+    {
+      "name": "Medirigirya_10.JPG",
+      "description": "Medirigirya_10"
+    },
+    {
+      "name": "Medirigirya_11.JPG",
+      "description": "Medirigirya_11"
+    },
+    {
+      "name": "Pinnawale.JPG",
+      "description": "Pinnawale"
+    },
+    {
+      "name": "Polonnaruwa_1.JPG",
+      "description": "Polonnaruwa_1"
+    },
+    {
+      "name": "Polonnaruwa_2.JPG",
+      "description": "Polonnaruwa_2"
+    },
+    {
+      "name": "Polonnaruwa_3.JPG",
+      "description": "Polonnaruwa_3"
+    },
+    {
+      "name": "Polonnaruwa_4.JPG",
+      "description": "Polonnaruwa_4"
+    },
+    {
+      "name": "Polonnaruwa_5.JPG",
+      "description": "Polonnaruwa_5"
+    }
   ],
   "Tahiti": [
-    "Black pearl catch.JPG",
-    "Bora Bora _3 2022.JPG",
-    "Bora Bora_1 2022.JPG",
-    "Bora Bora_2 2022.JPG",
-    "Bora Bora_4 2022.JPG",
-    "Bora Bora.jpeg",
-    "Moorea diving_1 2021.JPG",
-    "Moorea diving_2 2021.JPG",
-    "White pearl catch.JPG"
+    {
+      "name": "Black pearl catch.JPG",
+      "description": "Black pearl catch"
+    },
+    {
+      "name": "Bora Bora _3 2022.JPG",
+      "description": "Bora Bora _3 2022"
+    },
+    {
+      "name": "Bora Bora_1 2022.JPG",
+      "description": "Bora Bora_1 2022"
+    },
+    {
+      "name": "Bora Bora_2 2022.JPG",
+      "description": "Bora Bora_2 2022"
+    },
+    {
+      "name": "Bora Bora_4 2022.JPG",
+      "description": "Bora Bora_4 2022"
+    },
+    {
+      "name": "Bora Bora.jpeg",
+      "description": "Bora Bora"
+    },
+    {
+      "name": "Moorea diving_1 2021.JPG",
+      "description": "Moorea diving_1 2021"
+    },
+    {
+      "name": "Moorea diving_2 2021.JPG",
+      "description": "Moorea diving_2 2021"
+    },
+    {
+      "name": "White pearl catch.JPG",
+      "description": "White pearl catch"
+    }
   ],
   "Thai": [
-    "747.JPG",
-    "777.JPG",
-    "Chiang Mai_2024.jpg",
-    "Maelana cave_1 2018.JPG",
-    "Maelana cave_2.jpg",
-    "Maelana cave_3.jpg",
-    "Maelana cave_4.jpg",
-    "Maelana cave_5.jpg",
-    "Maelana cave_6.jpg",
-    "Maelana cave_7.jpg",
-    "Phuket_1 2024.JPG",
-    "Phuket_2 2024.JPG",
-    "Phuket_3 2024.JPG",
-    "Phuket_4 2024.JPG",
-    "Phuket_5 2024.JPG",
-    "Phuket_6 2024.JPG",
-    "Phuket_7 2024.JPG",
-    "Phuket_8 2024.JPG",
-    "Phuket_2008.JPG",
-    "Under the Bodhi tree.jpg",
-    "Wat Umong.jpg"
+    {
+      "name": "747.JPG",
+      "description": "747"
+    },
+    {
+      "name": "777.JPG",
+      "description": "777"
+    },
+    {
+      "name": "Chiang Mai_2024.jpg",
+      "description": "Chiang Mai_2024"
+    },
+    {
+      "name": "Maelana cave_1 2018.JPG",
+      "description": "Maelana cave_1 2018"
+    },
+    {
+      "name": "Maelana cave_2.jpg",
+      "description": "Maelana cave_2"
+    },
+    {
+      "name": "Maelana cave_3.jpg",
+      "description": "Maelana cave_3"
+    },
+    {
+      "name": "Maelana cave_4.jpg",
+      "description": "Maelana cave_4"
+    },
+    {
+      "name": "Maelana cave_5.jpg",
+      "description": "Maelana cave_5"
+    },
+    {
+      "name": "Maelana cave_6.jpg",
+      "description": "Maelana cave_6"
+    },
+    {
+      "name": "Maelana cave_7.jpg",
+      "description": "Maelana cave_7"
+    },
+    {
+      "name": "Phuket_1 2024.JPG",
+      "description": "Phuket_1 2024"
+    },
+    {
+      "name": "Phuket_2 2024.JPG",
+      "description": "Phuket_2 2024"
+    },
+    {
+      "name": "Phuket_3 2024.JPG",
+      "description": "Phuket_3 2024"
+    },
+    {
+      "name": "Phuket_4 2024.JPG",
+      "description": "Phuket_4 2024"
+    },
+    {
+      "name": "Phuket_5 2024.JPG",
+      "description": "Phuket_5 2024"
+    },
+    {
+      "name": "Phuket_6 2024.JPG",
+      "description": "Phuket_6 2024"
+    },
+    {
+      "name": "Phuket_7 2024.JPG",
+      "description": "Phuket_7 2024"
+    },
+    {
+      "name": "Phuket_8 2024.JPG",
+      "description": "Phuket_8 2024"
+    },
+    {
+      "name": "Phuket_2008.JPG",
+      "description": "Phuket_2008"
+    },
+    {
+      "name": "Under the Bodhi tree.jpg",
+      "description": "Under the Bodhi tree"
+    },
+    {
+      "name": "Wat Umong.jpg",
+      "description": "Wat Umong"
+    }
   ],
   "Tim’s old pics": [
-    "Altay_1 1986.jpg",
-    "Altay_2 1986.jpg",
-    "Altay_3 1986.jpg",
-    "AR15.JPG",
-    "Diploma 1987.jpg",
-    "Holsheviki_1 1986.jpg",
-    "Holsheviki_2 1986.jpg",
-    "Holsheviki_3 1986.jpg",
-    "In my BD office 2011.JPG",
-    "Lecture_1987.jpg",
-    "New Jersey_1 1998.jpg",
-    "New Jersey_2 1998.jpg",
-    "Pacifica 2021.jpg",
-    "Red woods 2012.JPG",
-    "Santa brought me AR15.jpg",
-    "Second leutenant_1 1988.jpeg",
-    "Second leutenant_2 1988.jpeg",
-    "Tim & Vasilich 1985.jpg",
-    "Tim 1982.jpg",
-    "Urals_1 1984.jpg",
-    "Urals_2 1984.jpg",
-    "Urals_3 1984.jpg",
-    "Urals_4 1984.jpg",
-    "Urals_5 1984.jpg",
-    "Urals_6 1984.jpg",
-    "Volgina_1 2023.jpg"
+    {
+      "name": "Altay_1 1986.jpg",
+      "description": "Altay_1 1986"
+    },
+    {
+      "name": "Altay_2 1986.jpg",
+      "description": "Altay_2 1986"
+    },
+    {
+      "name": "Altay_3 1986.jpg",
+      "description": "Altay_3 1986"
+    },
+    {
+      "name": "AR15.JPG",
+      "description": "AR15"
+    },
+    {
+      "name": "Diploma 1987.jpg",
+      "description": "Diploma 1987"
+    },
+    {
+      "name": "Holsheviki_1 1986.jpg",
+      "description": "Holsheviki_1 1986"
+    },
+    {
+      "name": "Holsheviki_2 1986.jpg",
+      "description": "Holsheviki_2 1986"
+    },
+    {
+      "name": "Holsheviki_3 1986.jpg",
+      "description": "Holsheviki_3 1986"
+    },
+    {
+      "name": "In my BD office 2011.JPG",
+      "description": "In my BD office 2011"
+    },
+    {
+      "name": "Lecture_1987.jpg",
+      "description": "Lecture_1987"
+    },
+    {
+      "name": "New Jersey_1 1998.jpg",
+      "description": "New Jersey_1 1998"
+    },
+    {
+      "name": "New Jersey_2 1998.jpg",
+      "description": "New Jersey_2 1998"
+    },
+    {
+      "name": "Pacifica 2021.jpg",
+      "description": "Pacifica 2021"
+    },
+    {
+      "name": "Red woods 2012.JPG",
+      "description": "Red woods 2012"
+    },
+    {
+      "name": "Santa brought me AR15.jpg",
+      "description": "Santa brought me AR15"
+    },
+    {
+      "name": "Second leutenant_1 1988.jpeg",
+      "description": "Second leutenant_1 1988"
+    },
+    {
+      "name": "Second leutenant_2 1988.jpeg",
+      "description": "Second leutenant_2 1988"
+    },
+    {
+      "name": "Tim & Vasilich 1985.jpg",
+      "description": "Tim & Vasilich 1985"
+    },
+    {
+      "name": "Tim 1982.jpg",
+      "description": "Tim 1982"
+    },
+    {
+      "name": "Urals_1 1984.jpg",
+      "description": "Urals_1 1984"
+    },
+    {
+      "name": "Urals_2 1984.jpg",
+      "description": "Urals_2 1984"
+    },
+    {
+      "name": "Urals_3 1984.jpg",
+      "description": "Urals_3 1984"
+    },
+    {
+      "name": "Urals_4 1984.jpg",
+      "description": "Urals_4 1984"
+    },
+    {
+      "name": "Urals_5 1984.jpg",
+      "description": "Urals_5 1984"
+    },
+    {
+      "name": "Urals_6 1984.jpg",
+      "description": "Urals_6 1984"
+    },
+    {
+      "name": "Volgina_1 2023.jpg",
+      "description": "Volgina_1 2023"
+    }
   ],
   "Toledo": [
-    "El Greco_Vargas 1.jpg",
-    "El Greco_Vargas 2.jpg",
-    "El Greco_Vargas 3.jpg"
+    {
+      "name": "El Greco_Vargas 1.jpg",
+      "description": "El Greco_Vargas 1"
+    },
+    {
+      "name": "El Greco_Vargas 2.jpg",
+      "description": "El Greco_Vargas 2"
+    },
+    {
+      "name": "El Greco_Vargas 3.jpg",
+      "description": "El Greco_Vargas 3"
+    }
   ],
   "Yucatan": [
-    "Calacmul_2 2015.JPG",
-    "Calacmul_4 2015.JPG",
-    "Calakmul_1 2015.JPG",
-    "Calakmul_3 2015.JPG",
-    "Palenque Mayan_1.JPG",
-    "Palenque Mayan_2.JPG",
-    "Palenque Mayan_3.JPG"
+    {
+      "name": "Calacmul_2 2015.JPG",
+      "description": "Calacmul_2 2015"
+    },
+    {
+      "name": "Calacmul_4 2015.JPG",
+      "description": "Calacmul_4 2015"
+    },
+    {
+      "name": "Calakmul_1 2015.JPG",
+      "description": "Calakmul_1 2015"
+    },
+    {
+      "name": "Calakmul_3 2015.JPG",
+      "description": "Calakmul_3 2015"
+    },
+    {
+      "name": "Palenque Mayan_1.JPG",
+      "description": "Palenque Mayan_1"
+    },
+    {
+      "name": "Palenque Mayan_2.JPG",
+      "description": "Palenque Mayan_2"
+    },
+    {
+      "name": "Palenque Mayan_3.JPG",
+      "description": "Palenque Mayan_3"
+    }
   ],
   "Yunnan": [
-    "Dragon Mountain.jpg",
-    "Glacier Kawagebo.jpg",
-    "Kawa_Karpo.jpg",
-    "Lijiang_1 2011.JPG",
-    "Lijiang_2 2011.JPG",
-    "Mekong begins here.jpg",
-    "Offering.jpg",
-    "Road blocked.jpg",
-    "Songzanglin_monastery_1.jpg",
-    "Songzanglin_monastery_2.jpg",
-    "Yunnan_1 2011.JPG",
-    "Yunnan_2 2011.JPG"
+    {
+      "name": "Dragon Mountain.jpg",
+      "description": "Dragon Mountain"
+    },
+    {
+      "name": "Glacier Kawagebo.jpg",
+      "description": "Glacier Kawagebo"
+    },
+    {
+      "name": "Kawa_Karpo.jpg",
+      "description": "Kawa_Karpo"
+    },
+    {
+      "name": "Lijiang_1 2011.JPG",
+      "description": "Lijiang_1 2011"
+    },
+    {
+      "name": "Lijiang_2 2011.JPG",
+      "description": "Lijiang_2 2011"
+    },
+    {
+      "name": "Mekong begins here.jpg",
+      "description": "Mekong begins here"
+    },
+    {
+      "name": "Offering.jpg",
+      "description": "Offering"
+    },
+    {
+      "name": "Road blocked.jpg",
+      "description": "Road blocked"
+    },
+    {
+      "name": "Songzanglin_monastery_1.jpg",
+      "description": "Songzanglin_monastery_1"
+    },
+    {
+      "name": "Songzanglin_monastery_2.jpg",
+      "description": "Songzanglin_monastery_2"
+    },
+    {
+      "name": "Yunnan_1 2011.JPG",
+      "description": "Yunnan_1 2011"
+    },
+    {
+      "name": "Yunnan_2 2011.JPG",
+      "description": "Yunnan_2 2011"
+    }
   ]
 }

@@ -950,7 +950,6 @@ html[lang=ru] .logo img[src*="logo-en.svg"] {
 }
 
 .main-book {
-  margin-top: 10px;
   padding-bottom: 40px
 }
 
@@ -993,7 +992,9 @@ html[lang=ru] .logo img[src*="logo-en.svg"] {
   text-decoration: none;
   cursor: pointer;
   padding: 15px;
-  border: 6px double var(--black)
+  border: 6px double var(--black);
+  border-radius: 20px;
+  corner-shape: scoop;
 }
 
 .main-book__separator {
@@ -1364,7 +1365,9 @@ html[lang=ru] .logo img[src*="logo-en.svg"] {
 }
 
 .gallery-section .owl-carousel .owl-item .item {
-  border: 6px double var(--black);
+  border-radius: 16px;
+  corner-shape: scoop;
+  border: 6px double #54412A;
   background: url(../images/fon-html.jpg);
   box-shadow: inset 0px 0px 200px rgb(133 95 27 / 50%);
 }
@@ -1409,35 +1412,33 @@ html[lang=ru] .logo img[src*="logo-en.svg"] {
 }
 
 .gallery-section .owl-carousel .owl-nav button.owl-next, .gallery-section .owl-carousel .owl-nav button.owl-prev {
-  width: 56px;
-  height: 70px;
+  width: 60px;
+  height: 130px;
   position: absolute;
   top: 50%;
-  border-radius: 8px;
+  border-radius: 9px;
   padding: 0 !important;
   -webkit-filter: brightness(100%) contrast(100%);
   filter: brightness(100%) contrast(100%);
-  -webkit-box-shadow: none;
-  box-shadow: none;
+
   -webkit-transition: all .3s ease-in-out;
   -o-transition: all .3s ease-in-out;
   transition: all .3s ease-in-out
 }
 
 .gallery-section .owl-carousel .owl-nav button.owl-next:hover, .gallery-section .owl-carousel .owl-nav button.owl-prev:hover {
-  -webkit-filter: brightness(63%) contrast(136%);
-  filter: brightness(63%) contrast(136%);
-  -webkit-box-shadow: 0 0 11px 0 var(--black);
-  box-shadow: 0 0 11px 0 var(--black)
+  transform: translateY(-50%) scale(1.1);
 }
 
 .gallery-section .owl-carousel .owl-nav button.owl-next {
-  background: url(../images/owl-next.jpg) 50% no-repeat;
+  background: url(../images/owl-next.svg) 50% no-repeat ;
+  background-size: 90%;
   right: -60px
 }
 
 .gallery-section .owl-carousel .owl-nav button.owl-prev {
-  background: url(../images/owl-prev.jpg) 50% no-repeat;
+  background: url(../images/owl-prev.svg) 50% no-repeat ;
+  background-size: 90%;
   left: -60px
 }
 
